@@ -1,0 +1,39 @@
+/*******************************
+             Nag
+*******************************/
+
+/*--------------
+   Collection
+---------------*/
+
+@background: rgb(85, 85, 85);
+@opacity: 0.95;
+@boxShadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+@color: @textColor;
+
+/*--------------
+    Elements
+---------------*/
+
+/* Title */
+@titleColor: @white;
+
+@closeColor: @white;
+@closeOpacity: 0.4;
+
+/*--------------
+      States
+---------------*/
+
+/* Hover */
+@nagHoverBackground: @background;
+@nagHoverOpacity: 1;
+
+@closeHoverOpacity: 1;
+
+/*--------------
+   Variations
+---------------*/
+
+/* Inverted */
+@invertedBackground: @darkWhite;

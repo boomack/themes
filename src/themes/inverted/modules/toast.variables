@@ -1,0 +1,29 @@
+/*******************************
+            Toast
+*******************************/
+
+/* Toast */
+@toastTextColor: @invertedTextColor;
+@toastInvertedTextColor: @textColor;
+@toastNeutralTextColor: @textColor;
+
+/* Color variations */
+@toastInfoColor: @infoColor;
+@toastWarningColor: @warningColor;
+@toastErrorColor: @errorColor;
+@toastSuccessColor: @successColor;
+@toastNeutralColor: @white;
+@toastInvertedColor: @black;
+
+@toastBoxBorder: 1px solid rgba(34, 36, 38, 0.12);
+
+/* Progressbar Colors */
+@toastInfoProgressColor: darken(@toastInfoColor,15);
+@toastWarningProgressColor: darken(@toastWarningColor,15);
+@toastErrorProgressColor: darken(@toastErrorColor,15);
+@toastSuccessProgressColor: darken(@toastSuccessColor,15);
+@toastNeutralProgressColor: darken(@toastNeutralColor,15);
+
+/* Actions */
+@toastActionBackground: rgba(255, 255, 255, .25);
+@toastActionBorder: 1px solid rgba(0, 0, 0, .2);

@@ -1,0 +1,265 @@
+/*******************************
+             Menu
+*******************************/
+
+/*-------------------
+      Collection
+--------------------*/
+
+/* Menu */
+@background: @white;
+@itemBackground: none;
+@boxShadow: @subtleShadow;
+
+/* Menu Item */
+@itemTextColor: @textColor;
+
+/* Divider */
+@dividerBackground: @internalBorderColor;
+
+/* Sub Menu */
+@subMenuTextColor: rgba(0, 0, 0, 0.5);
+
+/*--------------
+    Elements
+---------------*/
+
+/* Header */
+@headerBackground: '';
+
+/* Pointing Arrow */
+@arrowBorder: @arrowBorderWidth solid @solidBorderColor;
+@arrowHoverColor: rgb(242, 242, 242);
+@arrowActiveColor: @arrowHoverColor;
+@arrowActiveHoverColor: @arrowActiveColor;
+
+@arrowVerticalHoverColor: @arrowHoverColor;
+@arrowVerticalActiveColor: @arrowActiveColor;
+@arrowVerticalSubMenuColor: @white;
+
+/*--------------
+    Couplings
+---------------*/
+
+/* Label */
+@labelBackground: rgb(153, 153, 153);
+@labelTextColor: @white;
+
+/* Dropdown in Menu */
+@dropdownMenuBoxShadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+
+@dropdownBackground: @white;
+@dropdownItemBackground: transparent;
+@dropdownItemColor: @textColor;
+
+@dropdownHoveredItemBackground: @transparentBlack;
+@dropdownHoveredItemColor: @selectedTextColor;
+
+/* Dropdown Variations */
+@dropdownVerticalMenuBoxShadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+@invertedSelectionDropdownColor: @invertedTextColor;
+
+/*--------------
+     States
+---------------*/
+
+/* Hovered Item */
+@hoverItemBackground: @subtleTransparentBlack;
+@hoverItemTextColor: @selectedTextColor;
+
+/* Pressed Item */
+@pressedItemBackground: @subtleTransparentBlack;
+@pressedItemTextColor: @hoverItemTextColor;
+
+/* Active Item */
+@activeItemBackground: @transparentBlack;
+@activeItemTextColor: @selectedTextColor;
+
+/* Active Hovered Item */
+@activeHoverItemBackground: @transparentBlack;
+@activeHoverItemColor: @selectedTextColor;
+
+/* Selected Dropdown */
+@dropdownSelectedItemBackground: @transparentBlack;
+@dropdownSelectedItemColor: @selectedTextColor;
+
+/* Active Dropdown */
+@dropdownActiveItemBackground: @subtleTransparentBlack;
+@dropdownActiveItemColor: @selectedTextColor;
+
+/* Active Sub Menu */
+@subMenuActiveBackground: transparent;
+@subMenuActiveTextColor: @activeItemTextColor;
+
+/*--------------
+     Types
+---------------*/
+
+/* Vertical */
+@verticalBoxShadow: @boxShadow;
+@verticalBackground: @white;
+@verticalItemBackground: none;
+@verticalDividerBackground: @dividerBackground;
+
+/* Secondary */
+@secondaryBackground: none;
+@secondaryItemBackground: none;
+@secondaryItemColor: @unselectedTextColor;
+
+@secondaryHoverItemBackground: @transparentBlack;
+@secondaryHoverItemColor: @selectedTextColor;
+
+@secondaryActiveItemBackground: @transparentBlack;
+@secondaryActiveItemColor: @selectedTextColor;
+@secondaryActiveHoverItemBackground: @transparentBlack;
+@secondaryActiveHoverItemColor: @selectedTextColor;
+
+@secondaryActiveHoveredItemBackground: @transparentBlack;
+@secondaryActiveHoveredItemColor: @selectedTextColor;
+
+@secondaryHeaderBackground: none transparent;
+
+/* Pointing */
+@secondaryPointingBorderColor: @borderColor;
+
+@secondaryPointingHoverTextColor: @textColor;
+
+@secondaryPointingActiveBorderColor: currentColor;
+@secondaryPointingActiveTextColor: @selectedTextColor;
+
+@secondaryPointingActiveDropdownBorderColor: transparent;
+
+@secondaryPointingActiveHoverBorderColor: @secondaryPointingActiveBorderColor;
+@secondaryPointingActiveHoverTextColor: @secondaryPointingActiveTextColor;
+
+@secondaryPointingHeaderColor: @darkTextColor;
+
+/* Inverted Secondary */
+@secondaryInvertedColor: @invertedLightTextColor;
+
+@secondaryInvertedHoverBackground: @transparentWhite;
+@secondaryInvertedHoverColor: @invertedSelectedTextColor;
+
+@secondaryInvertedActiveBackground: @strongTransparentWhite;
+@secondaryInvertedActiveColor: @invertedSelectedTextColor;
+
+/* Inverted Pointing */
+@secondaryPointingInvertedBorderColor: @whiteBorderColor;
+@secondaryPointingInvertedItemTextColor: @invertedTextColor;
+@secondaryPointingInvertedItemHeaderColor: @white;
+@secondaryPointingInvertedItemHoverTextColor: @invertedSelectedTextColor;
+@secondaryPointingInvertedActiveBorderColor: @white;
+@secondaryPointingInvertedActiveColor: @invertedSelectedTextColor;
+
+/* Tiered */
+@tieredActiveItemBackground: rgb(252, 252, 252);
+@tieredActiveMenuBackground: rgb(252, 252, 252);
+
+@tieredSubMenuColor: @lightTextColor;
+
+@tieredSubMenuHoverBackground: none transparent;
+@tieredSubMenuHoverColor: @hoveredTextColor;
+
+@tieredSubMenuActiveBackground: none transparent;
+@tieredSubMenuActiveColor: @selectedTextColor;
+
+@tieredInvertedSubMenuBackground: rgba(0, 0, 0, 0.2);
+
+/* Icon */
+@iconMenuItemColor: @black;
+@iconMenuInvertedItemColor: @white;
+
+/* Tabular */
+@tabularBorderColor: @solidBorderColor;
+@tabularBackgroundColor: transparent;
+@tabularBackground: none @tabularBackgroundColor;
+@tabularTextColor: @itemTextColor;
+
+@tabularHoveredTextColor: @hoveredTextColor;
+
+@tabularVerticalBackground: none @tabularBackgroundColor;
+
+@tabularActiveBackground: none @white;
+@tabularActiveColor: @selectedTextColor;
+@tabularActiveBoxShadow: none;
+
+/* Pagination */
+@paginationActiveBackground: @transparentBlack;
+@paginationActiveTextColor: @selectedTextColor;
+
+/* Text */
+@textMenuItemColor: @mutedTextColor;
+
+@textMenuActiveItemColor: @selectedTextColor;
+
+@textMenuHeaderColor: @darkTextColor;
+
+/*--------------
+   Variations
+---------------*/
+
+/* Inverted */
+@invertedBackground: @black;
+@invertedBoxShadow: none;
+@invertedBorder: 0 solid transparent;
+@invertedHeaderBackground: transparent;
+
+@invertedItemBackground: transparent;
+@invertedItemTextColor: @invertedTextColor;
+
+/* Inverted Sub Menu */
+@invertedSubMenuBackground: transparent;
+@invertedSubMenuColor: @invertedUnselectedTextColor;
+
+/* Inverted Hover */
+@invertedHoverBackground: @transparentWhite;
+@invertedHoverColor: @invertedSelectedTextColor;
+
+@invertedSubMenuHoverBackground: transparent;
+@invertedSubMenuHoverColor: @invertedSelectedTextColor;
+
+/* Pressed */
+@invertedMenuPressedBackground: @transparentWhite;
+@invertedMenuPressedColor: @invertedSelectedTextColor;
+
+/* Inverted Active */
+@invertedActiveBackground: @invertedArrowActiveColor;
+@invertedActiveColor: @invertedSelectedTextColor;
+@invertedArrowActiveColor: rgb(61, 62, 63);
+
+/* Inverted Active Hover  */
+@invertedActiveHoverBackground: @invertedActiveBackground;
+@invertedActiveHoverColor: @white;
+@invertedArrowActiveHoverColor: @invertedArrowActiveColor;
+
+@invertedSubMenuActiveBackground: transparent;
+@invertedSubMenuActiveColor: @white;
+
+/* Inverted Menu Divider */
+@invertedDividerBackground: rgba(255, 255, 255, 0.08);
+@invertedVerticalDividerBackground: @invertedDividerBackground;
+
+/* Inverted Colored */
+@invertedColoredDividerBackground: @dividerBackground;
+@invertedColoredActiveBackground: @strongTransparentBlack;
+
+/* Attached */
+@attachedBoxShadow: none;
+@attachedBorder: @borderWidth solid @solidBorderColor;
+
+/*-------------------
+  Inverted dropdowns
+--------------------*/
+@invertedDropdownBackground: @black;
+@invertedDropdownMenuBoxShadow: none;
+
+@invertedDropdownItemColor: @invertedMutedTextColor;
+
+@invertedDropdownHoveredItemBackground: @transparentWhite;
+@invertedDropdownHoveredItemColor: @invertedDropdownItemColor;
+
+@invertedDropdownActiveItemBackground: transparent;
+@invertedDropdownActiveItemColor: @invertedDropdownItemColor;
+
+@invertedDropdownSelectedItemBackground: @strongTransparentWhite;
+@invertedDropdownSelectedItemColor: @invertedDropdownItemColor;

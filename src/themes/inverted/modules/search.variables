@@ -1,0 +1,79 @@
+/*******************************
+            Search
+*******************************/
+
+/* Search Prompt */
+@promptBackground: @inputBackground;
+@promptBorder: 1px solid @borderColor;
+@promptColor: @textColor;
+@promptBoxShadow: 0 0 0 0 transparent inset;
+
+/* Result Box */
+@resultsWidth: 18em;
+@resultsBackground: @white;
+@resultsBorder: 1px solid @solidBorderColor;
+
+/* Result */
+@resultTextColor: @textColor;
+
+/* Result Content */
+@resultTitleColor: @darkTextColor;
+
+/* Description */
+@resultDescriptionColor: @lightTextColor;
+
+/* Price */
+@resultPriceColor: @green;
+
+/* Special Message */
+@messageHeaderColor: @textColor;
+@messageDescriptionColor: @textColor;
+
+/* All Results Link */
+@actionBackground: @darkWhite;
+@actionColor: @textColor;
+
+/*******************************
+            States
+*******************************/
+
+/* Focus */
+@promptFocusBackground: @promptBackground;
+@promptFocusBorderColor: @selectedBorderColor;
+@promptFocusColor: @selectedTextColor;
+
+/* Hover */
+@resultHoverBackground: @offWhite;
+@actionHoverBackground: rgb(224, 224, 224);
+
+/* Loading */
+@invertedLoaderFillColor: rgba(0, 0, 0, 0.15);
+
+/* Active Category */
+@categoryActiveBackground: @darkWhite;
+@categoryNameActiveColor: @textColor;
+
+/* Active Result */
+@resultActiveBorderLeft: @internalBorderColor;
+@resultActiveBackground: @darkWhite;
+@resultActiveTitleColor: @darkTextColor;
+@resultActiveDescriptionColor: @darkTextColor;
+
+/*******************************
+            Types
+*******************************/
+
+@selectionCloseIconOpacity: 0.8;
+@selectionCloseIconColor: '';
+@selectionCloseIconHoverOpacity: 1;
+@selectionCloseIconHoverColor: @red;
+
+/* Category */
+@categoryBackground: @darkWhite;
+@categoryDivider: 1px solid @internalBorderColor;
+
+@categoryResultBackground: @white;
+@categoryResultLeftBorder: 1px solid @borderColor;
+
+@categoryNameBackground: transparent;
+@categoryNameColor: @lightTextColor;

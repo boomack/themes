@@ -1,0 +1,64 @@
+/*******************************
+             Popup
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@background: @white;
+
+@borderColor: @solidBorderColor;
+@boxShadow: @floatingShadow;
+@color: @textColor;
+
+/*-------------------
+       Parts
+--------------------*/
+
+/* Content Border */
+@border: @borderWidth solid @borderColor;
+
+/* Arrow */
+@arrowBackground: @background;
+@arrowColor: darken(@borderColor, 10);
+
+/* Arrow color by position */
+@arrowTopBackground: @arrowBackground;
+@arrowCenterBackground: @arrowBackground;
+@arrowBottomBackground: @arrowBackground;
+
+/*-------------------
+       Types
+--------------------*/
+
+/* Tooltip */
+@tooltipBackground: @background;
+@tooltipColor: @color;
+
+/* Inverted */
+@tooltipInvertedBackground: @invertedBackground;
+@tooltipInvertedColor: @invertedColor;
+@tooltipInvertedBorder: @invertedBorder;
+@tooltipInvertedBoxShadow: @invertedBoxShadow;
+@tooltipInvertedHeaderBackground: @invertedHeaderBackground;
+@tooltipInvertedHeaderColor: @invertedHeaderColor;
+
+/*-------------------
+       Variations
+--------------------*/
+
+/* Inverted */
+@invertedBackground: @black;
+@invertedColor: @white;
+@invertedBorder: none;
+@invertedBoxShadow: none;
+
+@invertedHeaderBackground: none;
+@invertedHeaderColor: @white;
+@invertedArrowColor: @invertedBackground;
+
+/* Arrow color by position */
+@invertedArrowTopBackground: @invertedBackground;
+@invertedArrowCenterBackground: @invertedBackground;
+@invertedArrowBottomBackground: @invertedBackground;

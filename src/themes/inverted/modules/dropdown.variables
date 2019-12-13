@@ -1,0 +1,168 @@
+/*******************************
+            Dropdown
+*******************************/
+
+/*-------------------
+       Content
+--------------------*/
+
+/* Menu */
+@menuBackground: rgb(255, 255, 255);
+@menuBorderColor: @borderColor;
+@menuBorder: @menuBorderWidth solid @menuBorderColor;
+@menuBoxShadow: @raisedShadow;
+
+/* Menu Item */
+@itemColor: @textColor;
+
+/* Menu Header */
+@menuHeaderColor: @darkTextColor;
+
+/* Menu Divider */
+@menuDividerColor: @internalBorderColor;
+@menuDividerBorder: @menuDividerSize solid @menuDividerColor;
+
+/* Description */
+@itemDescriptionColor: @lightTextColor;
+
+/* Message */
+@messageColor: @unselectedTextColor;
+
+/*------------
+   Selection
+--------------*/
+
+@selectionBackground: @inputBackground;
+
+/* <select> */
+@selectionTextColor: @textColor;
+
+@selectionTextUnderlayColor: @inputPlaceholderFocusColor;
+
+@selectionBorderColor: @borderColor;
+@selectionBorder: 1px solid @selectionBorderColor;
+
+@selectionIconOpacity: 0.8;
+
+@selectionMenuBoxShadow: @raisedShadow;
+
+/* Hover */
+@selectionHoverBorderColor: @selectedBorderColor;
+
+/* Focus */
+@selectionFocusBorderColor: @focusedFormMutedBorderColor;
+@selectionFocusMenuBoxShadow: @raisedShadow;
+
+/* Visible */
+@selectionVisibleTextColor: @hoveredTextColor;
+
+@selectionVisibleBorderColor: @focusedFormMutedBorderColor;
+@selectionVisibleBoxShadow: @raisedShadow;
+@selectionVisibleMenuBoxShadow: @raisedShadow;
+
+/* Visible Hover */
+@selectionActiveHoverBorderColor: @focusedFormMutedBorderColor;
+@selectionActiveHoverBoxShadow: @selectionVisibleBoxShadow;
+@selectionActiveHoverMenuBoxShadow: @selectionVisibleMenuBoxShadow;
+
+/*-------------------
+       States
+--------------------*/
+
+/* Hovered */
+@hoveredItemBackground: @transparentBlack;
+@hoveredItemColor: @selectedTextColor;
+
+/* Default Text */
+@defaultTextColor: @inputPlaceholderColor;
+@defaultTextFocusColor: @inputPlaceholderFocusColor;
+
+/* Active Menu Item */
+@activeItemBackground: transparent;
+@activeItemColor: @selectedTextColor;
+
+/* Selected */
+@selectedBackground: @subtleTransparentBlack;
+@selectedColor: @selectedTextColor;
+
+/* Clearable */
+@clearableIconOpacity: 0.8;
+@clearableIconActiveOpacity: 1;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Upward */
+@upwardMenuBoxShadow: 0 0 3px 0 rgba(0, 0, 0, 0.08);
+@upwardSelectionMenuBoxShadow: 0 -2px 3px 0 rgba(0, 0, 0, 0.08);
+@upwardSelectionHoverBoxShadow: 0 0 2px 0 rgba(0, 0, 0, 0.05);
+@upwardSelectionVisibleBoxShadow: 0 0 3px 0 rgba(0, 0, 0, 0.08);
+@upwardSelectionActiveHoverBoxShadow: 0 0 3px 0 rgba(0, 0, 0, 0.05);
+@upwardSelectionActiveHoverMenuBoxShadow: 0 -2px 3px 0 rgba(0, 0, 0, 0.08);
+
+/* Pointing */
+@pointingArrowBackground: @white;
+
+/*--------------
+    Inverted
+---------------*/
+
+/* General rules and basic dropdowns */
+@invertedMenuBackground: @black;
+@invertedMenuColor: @invertedMutedTextColor;
+@invertedMenuBorderColor: @strongTransparentWhite;
+@invertedMenuBorder: 1px solid @invertedMenuBorderColor;
+
+@invertedPointingArrowBackground: @black;
+
+@invertedHoveredItemBackground: @transparentWhite;
+@invertedHoveredItemColor: @invertedMenuColor;
+
+@invertedActiveItemBackground: transparent;
+@invertedActiveItemColor: @invertedMenuColor;
+
+@invertedSelectedBackground: @strongTransparentWhite;
+@invertedSelectedColor: @invertedMenuColor;
+
+@invertedMenuHeaderColor: @white;
+@invertedItemDescriptionColor: @invertedUnselectedTextColor;
+
+@invertedMenuDividerBorder: @menuDividerSize solid @strongTransparentWhite;
+
+/* Selection */
+@invertedSelectionBorderColor: @strongTransparentWhite;
+@invertedSelectionBorder: 1px solid @invertedSelectionBorderColor;
+@invertedSelectionBackground: @black;
+@invertedSelectionTextColor: @invertedMenuColor;
+@invertedSelectionInputTextColor: @white;
+
+@invertedSelectionHoverBorderColor: rgba(255, 255, 255, 0.25);
+
+@invertedDefaultTextColor: @invertedUnselectedTextColor;
+@invertedDefaultTextFocusColor: @invertedLightTextColor;
+
+@invertedSelectionVisibleTextColor: @invertedTextColor;
+
+@invertedSelectionTextUnderlayIconOpacity: 0.45;
+@invertedSelectionTextUnderlayColor: @invertedLightTextColor;
+
+@invertedSelectionItemDivider: 1px solid #242526;
+@invertedSelectionVisibleBorderColor: @strongTransparentWhite;
+
+@invertedMessageColor: @invertedUnselectedTextColor;
+
+@invertedInputHighlightBackground: rgba(255, 255, 255, 0.25);
+@invertedInputHighlightColor: @invertedMutedTextColor;
+
+/* Multiple */
+
+@invertedLabelBackgroundColor: rgba(255, 255, 255, 0.7);
+@invertedLabelColor: rgba(0, 0, 0, 1);
+@invertedLabelBoxShadow: 0 0 0 @labelBorderWidth rgba(255, 255, 255, 0) inset;
+
+@invertedLabelHoverBackgroundColor: rgba(255, 255, 255, 0.9);
+@invertedLabelHoverTextColor: @invertedLabelColor;
+
+@invertedLabelIconOpacity: 0.6;
+@invertedLabelIconHoverOpacity: 0.8;

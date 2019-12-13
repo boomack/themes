@@ -1,0 +1,28 @@
+/*******************************
+             Feed
+*******************************/
+
+/*-------------------
+      Elements
+--------------------*/
+
+/* Icon Label */
+@iconLabelColor: rgba(0, 0, 0, 0.6);
+
+/* Extra Summary Data */
+@extraColor: @textColor;
+
+/* Metadata Group */
+@metadataColor: rgba(0, 0, 0, 0.6);
+
+/* Like */
+@likeColor: '';
+@likeHoverColor: rgb(255, 39, 51);
+@likeActiveColor: rgb(239, 64, 74);
+
+/* Metadata Divider */
+@metadataDividerColor: rgba(0, 0, 0, 0.2);
+
+@metadataActionColor: rgba(0, 0, 0, 0.5);
+
+@metadataActionHoverColor: @selectedTextColor;

@@ -1,0 +1,23 @@
+/*******************************
+            Divider
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@highlightColor: @whiteBorderColor;
+@shadowColor: @borderColor;
+
+/* Text */
+@color: @darkTextColor;
+
+
+/*******************************
+         Variations
+*******************************/
+
+/* Inverted */
+@invertedTextColor: @white;
+@invertedHighlightColor: rgba(255, 255, 255, 0.15);
+@invertedShadowColor: @borderColor;

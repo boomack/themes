@@ -1,0 +1,75 @@
+/*******************************
+             Card
+*******************************/
+
+/*-------------------
+         View
+--------------------*/
+
+/* Card */
+@background: @white;
+
+/*-------------------
+       Content
+--------------------*/
+
+
+/* Image */
+@imageBackground: @transparentBlack;
+
+/* Header */
+@headerColor: @darkTextColor;
+
+/* Metadata */
+@metaColor: @lightTextColor;
+
+/* Icons */
+@starColor: rgb(255, 183, 10);
+@starActiveColor: rgb(255, 230, 35);
+
+@likeColor: rgb(255, 39, 51);
+@likeActiveColor: rgb(255, 39, 51);
+
+/* Links */
+@contentLinkColor: '';
+@contentLinkHoverColor: '';
+
+@headerLinkColor: @headerColor;
+@headerLinkHoverColor: @linkHoverColor;
+
+@metaLinkColor: @lightTextColor;
+@metaLinkHoverColor: @textColor;
+
+/* Description */
+@descriptionColor: rgba(0, 0, 0, 0.68);
+
+/* Dimmer */
+@dimmerColor: '';
+
+/* Additional Content */
+@extraDivider: 1px solid rgba(0, 0, 0, 0.05);
+@extraColor: @lightTextColor;
+
+/* Extra Links */
+@extraLinkColor: @unselectedTextColor;
+@extraLinkHoverColor: @linkHoverColor;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Link */
+@linkHoverBackground: @white;
+
+/* Inverted */
+@invertedBackground: @black;
+@invertedContentDivider: @borderWidth solid rgba(255, 255, 255, 0.15);
+@invertedHeaderColor: @invertedTextColor;
+@invertedDescriptionColor: @invertedMutedTextColor;
+@invertedMetaColor: @invertedLightTextColor;
+@invertedMetaLinkColor: @invertedLightTextColor;
+@invertedMetaLinkHoverColor: @invertedHoveredTextColor;
+@invertedExtraColor: @invertedLightTextColor;
+@invertedExtraLinkColor: @invertedUnselectedTextColor;
+@invertedExtraDivider: 1px solid rgba(255, 255, 255, 0.15);
+@invertedLinkHoverBackground: @black;

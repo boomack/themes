@@ -1,0 +1,31 @@
+/*******************************
+           Accordion
+*******************************/
+
+/* Title */
+@titleColor: @textColor;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Styled */
+@styledBackground: @white;
+
+/* Styled Title */
+@styledTitleColor: @unselectedTextColor;
+
+/* Styled Title States */
+@styledTitleHoverBackground: transparent;
+@styledTitleHoverColor: @textColor;
+@styledActiveTitleBackground: transparent;
+@styledActiveTitleColor: @selectedTextColor;
+
+/* Styled Child Title States */
+@styledHoverChildTitleBackground: @styledTitleHoverBackground;
+@styledHoverChildTitleColor: @styledTitleHoverColor;
+@styledActiveChildTitleBackground: @styledActiveTitleBackground;
+@styledActiveChildTitleColor: @styledActiveTitleColor;
+
+/* Inverted */
+@invertedTitleColor: @invertedTextColor;

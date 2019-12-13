@@ -1,0 +1,55 @@
+/*******************************
+             Step
+*******************************/
+
+/*-------------------
+      Element
+--------------------*/
+
+@backgroundColor: @white;
+@background: @backgroundColor;
+
+/* Title */
+@titleColor: @darkTextColor;
+
+/* Description */
+@descriptionColor: @textColor;
+
+
+/* Arrow */
+@arrowBackgroundColor: @backgroundColor;
+
+/*-------------------
+       States
+--------------------*/
+
+/* Completed */
+@completedColor: @positiveColor;
+
+/* Hover */
+@hoverBackground: @offWhite;
+@hoverColor: @hoveredTextColor;
+
+/* Down */
+@downBackground: @darkWhite;
+@downColor: @pressedTextColor;
+
+/* Active */
+@activeBackground: @darkWhite;
+@activeColor: @linkColor;
+@activeIconColor: @darkTextColor;
+
+/* Active + Hover */
+@activeHoverBackground: @lightGrey;
+@activeHoverColor: @textColor;
+
+
+/* Disabled */
+@disabledBackground: @background;
+@disabledColor: @disabledTextColor;
+
+/* Inverted */
+@invertedActiveBackground: rgb(51, 51, 51);
+@invertedActiveHoverBackground: rgb(68, 68, 68);
+@invertedHoverBackground: rgb(63, 63, 63);
+@invertedDisabledBackground: rgb(34, 34, 34);

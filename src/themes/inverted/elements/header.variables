@@ -1,0 +1,29 @@
+/*******************************
+            Header
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+/* Sub Header */
+@subHeaderColor: @mutedTextColor;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Block */
+@blockBackground: @darkWhite;
+@blockBorder: @blockBorderWidth solid @solidBorderColor;
+
+/* Attached */
+@attachedBorder: 1px solid @solidBorderColor;
+@attachedBackground: @white;
+
+/* Inverted */
+@invertedColor: @white;
+@invertedSubHeaderColor: @invertedMutedTextColor;
+@invertedDividedBorderColor: @whiteBorderColor;
+@invertedBlockBackground: @lightBlack @subtleGradient;
+@invertedAttachedBackground: @black;

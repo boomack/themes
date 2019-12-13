@@ -1,0 +1,14 @@
+/*******************************
+          Breadcrumb
+*******************************/
+
+/*-------------------
+     Breadcrumb
+--------------------*/
+
+@dividerColor: @lightTextColor;
+
+/* Inverted */
+@invertedColor: @midWhite;
+@invertedActiveColor: @white;
+@invertedDividerColor: @invertedLightTextColor;

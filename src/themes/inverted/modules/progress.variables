@@ -1,0 +1,70 @@
+/*******************************
+            Progress
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@background: @strongTransparentBlack;
+@border: none;
+@boxShadow: none;
+
+/* Bar */
+@barBackground: rgb(136, 136, 136);
+
+/* Progress Bar Label */
+@progressColor: @invertedLightTextColor;
+@progressTextShadow: none;
+
+/* Label */
+@labelColor: @textColor;
+@labelTextShadow: none;
+
+/*-------------------
+        Types
+--------------------*/
+
+@indicatingFirstColor: hsl(0, 62%, 61%);
+@indicatingSecondColor: hsl(36, 80%, 69%);
+@indicatingThirdColor: hsl(44, 76%, 59%);
+@indicatingFourthColor: hsl(53, 73%, 51%);
+@indicatingFifthColor: hsl(78, 62%, 61%);
+@indicatingSixthColor: hsl(134, 61%, 63%);
+
+@indicatingFirstLabelColor: @textColor;
+@indicatingSecondLabelColor: @textColor;
+@indicatingThirdLabelColor: @textColor;
+@indicatingFourthLabelColor: @textColor;
+@indicatingFifthLabelColor: @textColor;
+@indicatingSixthLabelColor: @textColor;
+
+@invertedIndicatingFirstLabelColor: @invertedTextColor;
+@invertedIndicatingSecondLabelColor: @invertedTextColor;
+@invertedIndicatingThirdLabelColor: @invertedTextColor;
+@invertedIndicatingFourthLabelColor: @invertedTextColor;
+@invertedIndicatingFifthLabelColor: @invertedTextColor;
+@invertedIndicatingSixthLabelColor: @invertedTextColor;
+
+/*-------------------
+        States
+--------------------*/
+
+/* Active */
+@activePulseColor: @white;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Attached */
+@attachedBackground: transparent;
+
+/* Inverted */
+@invertedBackground: @transparentWhite;
+@invertedBarBackground: @barBackground;
+@invertedProgressColor: @black;
+@invertedLabelColor: @white;
+
+/* Indeterminate */
+@indeterminatePulseColor: @white;

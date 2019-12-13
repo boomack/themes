@@ -1,0 +1,107 @@
+/*******************************
+             Label
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@backgroundColor: rgb(232, 232, 232);
+@color: @mutedTextColor;
+
+/*-------------------
+        Parts
+--------------------*/
+
+/* Link */
+@linkOpacity: 0.5;
+
+/* Detail */
+@detailOpacity: 0.8;
+
+/* Delete */
+@deleteOpacity: @linkOpacity;
+
+/*-------------------
+        Types
+--------------------*/
+
+/* Image Label */
+@imageLabelBackground: @backgroundColor;
+@imageLabelDetailBackground: @strongTransparentBlack;
+
+/*-------------------
+        States
+--------------------*/
+
+/* Hover */
+@labelHoverBackgroundColor: rgb(224, 224, 224);
+@labelHoverTextColor: @hoveredTextColor;
+
+/* Active */
+@labelActiveBackgroundColor: rgb(208, 208, 208);
+@labelActiveTextColor: @selectedTextColor;
+
+/* Active Hover */
+@labelActiveHoverBackgroundColor: rgb(200, 200, 200);
+@labelActiveHoverTextColor: @selectedTextColor;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Basic */
+@basicBackground: none @white;
+@basicColor: @textColor;
+
+@basicHoverBackground: @basicBackground;
+@basicHoverColor: @linkHoverColor;
+
+/* Tag */
+@tagCircleColor: @white;
+@tagCircleBoxShadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
+@basicTagCircleBoxShadow: 0 -1px 3px 0 rgba(0, 0, 0, 0.8);
+
+/* Ribbon */
+@ribbonShadowColor: rgba(0, 0, 0, 0.15);
+
+/* Inverted */
+@invertedBackgroundColor: darken(@backgroundColor,20);
+@invertedBackground: @black;
+
+@basicInvertedBorderColor: rgba(255, 255, 255, 0.5);
+
+/* Colors */
+@redTextColor: @white;
+@orangeTextColor: @white;
+@yellowTextColor: @white;
+@oliveTextColor: @white;
+@greenTextColor: @white;
+@tealTextColor: @white;
+@blueTextColor: @white;
+@violetTextColor: @white;
+@purpleTextColor: @white;
+@pinkTextColor: @white;
+@brownTextColor: @white;
+@greyTextColor: @white;
+@blackTextColor: @white;
+
+@redHoverTextColor: @white;
+@orangeHoverTextColor: @white;
+@yellowHoverTextColor: @white;
+@oliveHoverTextColor: @white;
+@greenHoverTextColor: @white;
+@tealHoverTextColor: @white;
+@blueHoverTextColor: @white;
+@violetHoverTextColor: @white;
+@purpleHoverTextColor: @white;
+@pinkHoverTextColor: @white;
+@brownHoverTextColor: @white;
+@greyHoverTextColor: @white;
+@blackHoverTextColor: @white;
+
+@primaryHoverTextColor: @white;
+@secondaryHoverTextColor: @white;
+
+@primaryTextColor: @invertedTextColor;
+@secondaryTextColor: @invertedTextColor;

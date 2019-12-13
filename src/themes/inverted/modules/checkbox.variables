@@ -1,0 +1,112 @@
+/*******************************
+            Checkbox
+*******************************/
+
+@checkboxColor: @textColor;
+
+/* Checkbox */
+@checkboxBackground: @white;
+@checkboxBorder: 1px solid @solidBorderColor;
+
+/* Label */
+@labelColor: @textColor;
+
+/*-------------------
+        States
+--------------------*/
+
+/* Hover */
+@checkboxHoverBackground: @checkboxBackground;
+@checkboxHoverBorderColor: @selectedBorderColor;
+@labelHoverColor: @hoveredTextColor;
+
+/* Pressed */
+@checkboxPressedBackground: @offWhite;
+@checkboxPressedBorderColor: @selectedBorderColor;
+@checkboxPressedColor: @selectedTextColor;
+@labelPressedColor: @selectedTextColor;
+
+/* Focus */
+@checkboxFocusBackground: @white;
+@checkboxFocusBorderColor: @focusedFormMutedBorderColor;
+@checkboxFocusCheckColor: @selectedTextColor;
+@labelFocusColor: @selectedTextColor;
+
+/* Active */
+@labelActiveColor: @selectedTextColor;
+@checkboxActiveBackground: @white;
+@checkboxActiveBorderColor: @selectedBorderColor;
+@checkboxActiveCheckColor: @selectedTextColor;
+@checkboxActiveCheckOpacity: 1;
+
+/* Active Focus */
+@checkboxActiveFocusBackground: @white;
+@checkboxActiveFocusBorderColor: @checkboxFocusBorderColor;
+@checkboxActiveFocusCheckColor: @selectedTextColor;
+
+/* Indeterminate */
+@checkboxIndeterminateBackground: @checkboxActiveBackground;
+@checkboxIndeterminateBorderColor: @checkboxActiveBorderColor;
+@checkboxIndeterminateCheckOpacity: 1;
+@checkboxIndeterminateCheckColor: @checkboxActiveCheckColor;
+
+/* Disabled */
+@disabledCheckboxOpacity: 0.5;
+@disabledCheckboxLabelColor: @black;
+
+/*-------------------
+        Types
+--------------------*/
+
+/* Radio */
+@bulletColor: @textColor;
+
+@radioFocusBackground: @checkboxFocusBackground;
+@radioFocusBulletColor: @checkboxFocusCheckColor;
+
+@radioActiveBackground: @checkboxActiveBackground;
+@radioActiveBulletColor: @checkboxActiveCheckColor;
+
+@radioActiveFocusBackground: @checkboxActiveFocusBackground;
+@radioActiveFocusBulletColor: @checkboxActiveFocusCheckColor;
+
+/* Slider & Toggle Handle */
+@handleBackground: @white @subtleGradient;
+
+/* Slider */
+@sliderLineColor: @transparentBlack;
+
+/* Slider States */
+@sliderHoverLaneBackground: @veryStrongTransparentBlack;
+@sliderHoverLabelColor: @hoveredTextColor;
+
+@sliderOnLineColor: @lightBlack;
+@sliderOnLabelColor: @selectedTextColor;
+
+@sliderOnFocusLineColor: @lightBlackFocus;
+@sliderOnFocusLabelColor: @sliderOnLabelColor;
+
+/* Toggle */
+@toggleLaneBackground: @transparentBlack;
+@toggleCenterLaneBackground: @veryStrongTransparentBlack;
+
+@toggleFocusColor: @veryStrongTransparentBlack;
+@toggleHoverColor: @toggleFocusColor;
+
+@toggleOffLabelColor: @checkboxColor;
+@toggleOffHandleBoxShadow: @handleBoxShadow;
+
+@toggleOnLabelColor: @selectedTextColor;
+@toggleOnLaneColor: @primaryColor;
+
+@toggleOnHandleBoxShadow: @handleBoxShadow;
+
+@toggleOnFocusLaneColor: @primaryColorFocus;
+@toggleOnFocusLabelColor: @toggleOnLabelColor;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Inverted */
+@checkboxInvertedHoverBackground: @black;

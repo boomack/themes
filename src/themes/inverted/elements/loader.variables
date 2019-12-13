@@ -1,0 +1,18 @@
+/*******************************
+             Loader
+*******************************/
+
+/*-------------------
+      Standard
+--------------------*/
+
+@shapeBorderColor: @loaderLineColor;
+@invertedShapeBorderColor: @invertedLoaderLineColor;
+
+/*-------------------
+        Types
+--------------------*/
+
+/* Text */
+@loaderTextColor: @textColor;
+@invertedLoaderTextColor: @invertedTextColor;
