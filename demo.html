@@ -236,6 +236,51 @@
         <div class="ui container">
           <div class="ui tab active" data-tab="elements">
             <div class="example">
+              <h2 class="ui dividing header">Text</h2>
+              <p>
+                Paragraphs. Lorem ipsum dolor, sit amet <b>bold</b> consectetur <i>italic</i> adipisicing <u>underline</u> elit.
+                Eaque <em>emphazised</em> quaerat, <strong>strongly emphasized</strong> cumque placeat ab earum <a href="#">link</a> voluptas inventore iste, suscipit nemo sunt fugit quo temporibus tempora provident maiores id minus dignissimos. Blanditiis.
+                Eligendi, quas veritatis. Odio dolor, tempora aspernatur ea molestiae corrupti cum, ad eius possimus saepe harum magni repellat. Dolores at tempora aspernatur?
+              </p>
+              <p>
+                Eaque quaerat, <q>Short Qutoation</q> cumque placeat <cite>The Title</cite> ab earum voluptas <ins>Insertion</ins> inventore <del>deletion</del> iste,
+                suscipit <mark>marked</mark> nemo sunt <code>source code</code> fugit quo temporibus tempora provident maiores id minus dignissimos.
+                Quisquam aliquid quos voluptas dolorem reiciendis unde obcaecati suscipit nesciunt quae eum, distinctio in minima, impedit tempora blanditiis fuga at illum mollitia.
+                Eaque quaerat, cumque placeat ab earum voluptas inventore iste, suscipit nemo sunt fugit quo temporibus tempora provident maiores id minus dignissimos. Blanditiis.
+              </p>
+              <pre><code>/********** Clean Task **************/
+
+// cleans distribution files
+module.exports = function() {
+return del([config.paths.clean], 123.4, tasks.settings.del);
+};</code></pre>
+              <p>
+                Eaque quaerat, cumque placeat ab earum voluptas inventore iste, suscipit nemo sunt fugit quo temporibus tempora provident maiores id minus dignissimos. Blanditiis.
+                Nemo, eius! Vel modi, vitae veritatis at voluptatum, impedit ut adipisci exercitationem, earum reprehenderit est ab cum ipsum maiores nisi blanditiis illo?
+              </p>
+              <blockquote>
+                Eaque quaerat, cumque placeat ab earum voluptas inventore iste, suscipit nemo sunt fugit quo temporibus tempora provident maiores id minus dignissimos. Blanditiis.
+                Eligendi, quas veritatis. Odio dolor, tempora aspernatur ea molestiae corrupti cum, ad eius possimus saepe harum magni repellat. Dolores at tempora aspernatur?
+              </blockquote>
+              <p>
+                Eaque quaerat, cumque placeat ab earum voluptas inventore iste, suscipit nemo sunt fugit quo temporibus tempora provident maiores id minus dignissimos. Blanditiis.
+                Nemo, eius! Vel modi, vitae veritatis at voluptatum, impedit ut adipisci exercitationem, earum reprehenderit est ab cum ipsum maiores nisi blanditiis illo?
+              </p>
+              <blockquote>
+                <p>
+                  Blanditiis. Eligendi, quas veritatis. Odio dolor, tempora aspernatur ea molestiae corrupti cum, ad eius possimus saepe harum magni repellat.
+                </p>
+                <cite>The Source</cite>
+              </blockquote>
+              <p>
+                This is <span class="ui red text">red</span> inline text and this is <span class="ui blue text">blue</span> inline text and this is <span class="ui purple text">purple</span> inline text
+              </p>
+              <div class="ui inverted segment">
+                This is <span class="ui inverted red text">red</span> inline text and this is <span class="ui inverted blue text">blue</span> inline text and this is <span class="ui inverted purple text">purple</span> inline text.
+                And a <a href="#">link</a> in an inverted segment.
+              </div>
+            </div>
+            <div class="example">
               <h2 class="ui dividing header">Button</h2>
               <div class="ui demo">
                 <div class="ui button">View</div>
@@ -317,19 +362,88 @@
                 <div class="ui huge button">Huge</div>
                 <div class="ui massive button">Massive</div>
                 <div class="ui hidden divider"></div>
-                <div class="ui blue button">Blue</div>
-                <div class="ui red button">Red</div>
-                <div class="ui teal button">Teal</div>
-                <div class="ui blue basic button">Blue</div>
-                <div class="ui red basic button">Red</div>
-                <div class="ui teal basic button">Teal</div>
+                <div class="ui horizontal divider">All Colors</div>
+                <p>
+                  <button class="ui button">Default Button</button>
+                  <button class="ui primary button">Primary Button</button>
+                  <button class="ui secondary button">Secondary Button</button>
+                </p>
+                <p>
+                  <button class="ui red button">Red</button>
+                  <button class="ui orange button">Orange</button>
+                  <button class="ui yellow button">Yellow</button>
+                  <button class="ui olive button">Olive</button>
+                  <button class="ui green button">Green</button>
+                  <button class="ui teal button">Teal</button>
+                  <button class="ui blue button">Blue</button>
+                </p>
+                <p>
+                  <button class="ui violet button">Violet</button>
+                  <button class="ui purple button">Purple</button>
+                  <button class="ui pink button">Pink</button>
+                  <button class="ui brown button">Brown</button>
+                  <button class="ui grey button">Grey</button>
+                  <button class="ui black button">Black</button>
+                </p>
+                <div class="ui horizontal divider">Basic Buttons</div>
+                <p>
+                  <button class="ui basic button">Default Button</button>
+                  <button class="ui primary basic button">Primary Button</button>
+                  <button class="ui secondary basic button">Secondary Button</button>
+                </p>
+                <p>
+                  <button class="ui red basic button">Red</button>
+                  <button class="ui orange basic button">Orange</button>
+                  <button class="ui yellow basic button">Yellow</button>
+                  <button class="ui olive basic button">Olive</button>
+                  <button class="ui green basic button">Green</button>
+                  <button class="ui teal basic button">Teal</button>
+                  <button class="ui blue basic button">Blue</button>
+                </p>
+                <p>
+                  <button class="ui violet basic button">Violet</button>
+                  <button class="ui purple basic button">Purple</button>
+                  <button class="ui pink basic button">Pink</button>
+                  <button class="ui brown basic button">Brown</button>
+                  <button class="ui grey basic button">Grey</button>
+                  <button class="ui black basic button">Black</button>
+                </p>
+                <div class="ui horizontal divider">Inverted Buttons</div>
                 <div class="ui inverted segment">
-                  <div class="ui inverted button">Inverted</div>
-                  <div class="ui inverted blue button">Blue</div>
-                  <div class="ui inverted red button">Red</div>
-                  <div class="ui inverted basic button">Basic</div>
-                  <div class="ui inverted blue basic button">Blue</div>
-                  <div class="ui inverted red basic button">Red</div>
+                  <p>
+                    <button class="ui inverted red button">Red</button>
+                    <button class="ui inverted orange button">Orange</button>
+                    <button class="ui inverted yellow button">Yellow</button>
+                    <button class="ui inverted olive button">Olive</button>
+                    <button class="ui inverted green button">Green</button>
+                    <button class="ui inverted teal button">Teal</button>
+                    <button class="ui inverted blue button">Blue</button>
+                  </p>
+                  <p>
+                    <button class="ui inverted violet button">Violet</button>
+                    <button class="ui inverted purple button">Purple</button>
+                    <button class="ui inverted pink button">Pink</button>
+                    <button class="ui inverted brown button">Brown</button>
+                    <button class="ui inverted grey button">Grey</button>
+                    <button class="ui inverted black button">Black</button>
+                  </p>
+                  <p>
+                    <button class="ui inverted red basic button">Red</button>
+                    <button class="ui inverted orange basic button">Orange</button>
+                    <button class="ui inverted yellow basic button">Yellow</button>
+                    <button class="ui inverted olive basic button">Olive</button>
+                    <button class="ui inverted green basic button">Green</button>
+                    <button class="ui inverted teal basic button">Teal</button>
+                    <button class="ui inverted blue basic button">Blue</button>
+                  </p>
+                  <p>
+                    <button class="ui inverted violet basic button">Violet</button>
+                    <button class="ui inverted purple basic button">Purple</button>
+                    <button class="ui inverted pink basic button">Pink</button>
+                    <button class="ui inverted brown basic button">Brown</button>
+                    <button class="ui inverted grey basic button">Grey</button>
+                    <button class="ui inverted black basic button">Black</button>
+                  </p>
                 </div>
                 <div class="ui hidden divider"></div>
                 <div class="ui vertical buttons">
