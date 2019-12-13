@@ -17,8 +17,8 @@
 @placeholderFocusColor: @inputPlaceholderFocusColor;
 
 /* Down */
-@downBorderColor: rgba(0, 0, 0, 0.3);
-@downBackground: rgb(255, 255, 255);
+@downBorderColor: fade(@black, 30);
+@downBackground: @white;
 @downColor: @textColor;
 
 /* Focus */
@@ -27,7 +27,7 @@
 @focusColor: @hoveredTextColor;
 
 /* Loader */
-@invertedLoaderFillColor: rgba(0, 0, 0, 0.15);
+@invertedLoaderFillColor: fade(@black, 15);
 
 /*-------------------
       Variations

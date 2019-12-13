@@ -8,5 +8,7 @@
        Elements
 --------------------*/
 
-@background: rgb(248, 248, 249);
-@shadowShadow: 0 0 0 0 @transparentBlack;
+@background: @darkWhite;
+@borderShadow: 0 0 0 @borderWidth @strongBorderColor inset;
+// @shadowShadow: 0 0 0 0 @transparentBlack;
+@boxShadow: @borderShadow;

@@ -6,8 +6,8 @@
        Element
 --------------------*/
 
-@background: @white;
-@border: @borderWidth solid @borderColor;
+@background: @darkWhite;
+@border: none; // @borderWidth solid @borderColor;
 @boxShadow: @subtleShadow;
 
 /*******************************
@@ -15,9 +15,9 @@
 *******************************/
 
 /* Placeholder */
-@placeholderBackground: @offWhite;
+@placeholderBackground: @darkWhite;
 @placeholderBorderColor: @borderColor;
-@placeholderBoxShadow: 0 2px 25px 0 rgba(34, 36, 38, 0.05) inset;
+@placeholderBoxShadow: 0 2px 25px 0 rgba(196, 206, 216, 0.05) inset;
 
 /* Stacked */
 @stackedPageBackground: @subtleTransparentBlack;
@@ -27,8 +27,8 @@
 *******************************/
 
 /* Loading Dimmer */
-@loaderDimmerColor: rgba(255, 255, 255, 0.8);
-@loaderInvertedDimmerColor: rgba(0, 0, 0 , 0.85);
+@loaderDimmerColor: fade(@white, 80);
+@loaderInvertedDimmerColor: fade(@black, 85);
 
 /*******************************
             Variations
@@ -57,8 +57,8 @@
 @secondaryInvertedBackground:
   lighten(@black, (@secondaryInvertedLightness * 100))
   linear-gradient(
-    rgba(255, 255, 255, @secondaryInvertedLightness) 0,
-    rgba(255, 255, 255, @secondaryInvertedLightness) 100%
+    fade(@white, @secondaryInvertedLightness * 100) 0,
+    fade(@white, @secondaryInvertedLightness * 100) 100%
   )
 ;
 @secondaryInvertedColor: @invertedMutedTextColor;
@@ -67,8 +67,8 @@
 @tertiaryInvertedBackground:
   lighten(@black, (@tertiaryInvertedLightness * 100))
   linear-gradient(
-    rgba(255, 255, 255, @tertiaryInvertedLightness) 0,
-    rgba(255, 255, 255, @tertiaryInvertedLightness) 100%
+    fade(@white, @tertiaryInvertedLightness * 100) 0,
+    fade(@white, @tertiaryInvertedLightness * 100) 100%
   )
 ;
 @tertiaryInvertedColor: @invertedMutedTextColor;

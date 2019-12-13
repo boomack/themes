@@ -7,7 +7,7 @@
 --------------------*/
 
 /* Menu */
-@background: @white;
+@background: desaturate(lighten(@pageBackground, 7), 5);
 @itemBackground: none;
 @boxShadow: @subtleShadow;
 
@@ -18,7 +18,7 @@
 @dividerBackground: @internalBorderColor;
 
 /* Sub Menu */
-@subMenuTextColor: rgba(0, 0, 0, 0.5);
+@subMenuTextColor: rgba(255, 255, 255, 0.5);
 
 /*--------------
     Elements
@@ -46,7 +46,7 @@
 @labelTextColor: @white;
 
 /* Dropdown in Menu */
-@dropdownMenuBoxShadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+@dropdownMenuBoxShadow: 0 1px 3px 0 @strongTransparentBlack;
 
 @dropdownBackground: @white;
 @dropdownItemBackground: transparent;
@@ -56,7 +56,7 @@
 @dropdownHoveredItemColor: @selectedTextColor;
 
 /* Dropdown Variations */
-@dropdownVerticalMenuBoxShadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+@dropdownVerticalMenuBoxShadow: 0 1px 3px 0 @strongTransparentBlack;
 @invertedSelectionDropdownColor: @invertedTextColor;
 
 /*--------------
@@ -97,7 +97,7 @@
 
 /* Vertical */
 @verticalBoxShadow: @boxShadow;
-@verticalBackground: @white;
+@verticalBackground: @background;
 @verticalItemBackground: none;
 @verticalDividerBackground: @dividerBackground;
 
@@ -152,8 +152,8 @@
 @secondaryPointingInvertedActiveColor: @invertedSelectedTextColor;
 
 /* Tiered */
-@tieredActiveItemBackground: rgb(252, 252, 252);
-@tieredActiveMenuBackground: rgb(252, 252, 252);
+@tieredActiveItemBackground: @darkWhite;
+@tieredActiveMenuBackground: @darkWhite;
 
 @tieredSubMenuColor: @lightTextColor;
 
@@ -163,14 +163,14 @@
 @tieredSubMenuActiveBackground: none transparent;
 @tieredSubMenuActiveColor: @selectedTextColor;
 
-@tieredInvertedSubMenuBackground: rgba(0, 0, 0, 0.2);
+@tieredInvertedSubMenuBackground: @veryStrongTransparentBlack;
 
 /* Icon */
 @iconMenuItemColor: @black;
 @iconMenuInvertedItemColor: @white;
 
 /* Tabular */
-@tabularBorderColor: @solidBorderColor;
+@tabularBorderColor: @borderColor;
 @tabularBackgroundColor: transparent;
 @tabularBackground: none @tabularBackgroundColor;
 @tabularTextColor: @itemTextColor;
@@ -179,7 +179,7 @@
 
 @tabularVerticalBackground: none @tabularBackgroundColor;
 
-@tabularActiveBackground: none @white;
+@tabularActiveBackground: none lighten(@pageBackground, 15);
 @tabularActiveColor: @selectedTextColor;
 @tabularActiveBoxShadow: none;
 
@@ -225,7 +225,7 @@
 /* Inverted Active */
 @invertedActiveBackground: @invertedArrowActiveColor;
 @invertedActiveColor: @invertedSelectedTextColor;
-@invertedArrowActiveColor: rgb(61, 62, 63);
+@invertedArrowActiveColor: @grey;
 
 /* Inverted Active Hover  */
 @invertedActiveHoverBackground: @invertedActiveBackground;
@@ -236,7 +236,7 @@
 @invertedSubMenuActiveColor: @white;
 
 /* Inverted Menu Divider */
-@invertedDividerBackground: rgba(255, 255, 255, 0.08);
+@invertedDividerBackground: @transparentWhite;
 @invertedVerticalDividerBackground: @invertedDividerBackground;
 
 /* Inverted Colored */

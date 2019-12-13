@@ -6,7 +6,7 @@
        Element
 --------------------*/
 
-@backgroundColor: rgb(232, 232, 232);
+@backgroundColor: lighten(@pageBackground, 15);
 @color: @mutedTextColor;
 
 /*-------------------
@@ -35,15 +35,15 @@
 --------------------*/
 
 /* Hover */
-@labelHoverBackgroundColor: rgb(224, 224, 224);
+@labelHoverBackgroundColor: lighten(@backgroundColor, 3);
 @labelHoverTextColor: @hoveredTextColor;
 
 /* Active */
-@labelActiveBackgroundColor: rgb(208, 208, 208);
+@labelActiveBackgroundColor: lighten(@pageBackground, 20);
 @labelActiveTextColor: @selectedTextColor;
 
 /* Active Hover */
-@labelActiveHoverBackgroundColor: rgb(200, 200, 200);
+@labelActiveHoverBackgroundColor: lighten(@labelActiveBackgroundColor, 3);
 @labelActiveHoverTextColor: @selectedTextColor;
 
 /*-------------------

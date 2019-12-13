@@ -6,11 +6,11 @@
       Element
 --------------------*/
 
-@backgroundColor: @white;
+@backgroundColor: lighten(@pageBackground, 5);
 @background: @backgroundColor;
 
 /* Title */
-@titleColor: @darkTextColor;
+@titleColor: @textColor;
 
 /* Description */
 @descriptionColor: @textColor;
@@ -27,20 +27,20 @@
 @completedColor: @positiveColor;
 
 /* Hover */
-@hoverBackground: @offWhite;
+@hoverBackground: lighten(@backgroundColor, 3);
 @hoverColor: @hoveredTextColor;
 
 /* Down */
-@downBackground: @darkWhite;
+@downBackground: @backgroundColor;
 @downColor: @pressedTextColor;
 
 /* Active */
-@activeBackground: @darkWhite;
-@activeColor: @linkColor;
+@activeBackground: lighten(@backgroundColor, 10);
+@activeColor: @darkTextColor;
 @activeIconColor: @darkTextColor;
 
 /* Active + Hover */
-@activeHoverBackground: @lightGrey;
+@activeHoverBackground: lighten(@activeBackground, 3);
 @activeHoverColor: @textColor;
 
 
@@ -49,7 +49,7 @@
 @disabledColor: @disabledTextColor;
 
 /* Inverted */
-@invertedActiveBackground: rgb(51, 51, 51);
-@invertedActiveHoverBackground: rgb(68, 68, 68);
-@invertedHoverBackground: rgb(63, 63, 63);
-@invertedDisabledBackground: rgb(34, 34, 34);
+@invertedActiveBackground: rgb(189, 189, 189);
+@invertedActiveHoverBackground: rgb(160, 160, 160);
+@invertedHoverBackground: rgb(180, 180, 180);
+@invertedDisabledBackground: rgb(216, 216, 216);

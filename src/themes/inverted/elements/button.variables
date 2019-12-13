@@ -7,12 +7,12 @@
 --------------------*/
 
 /* Button */
-@backgroundColor: rgb(224, 225, 226);
+@backgroundColor: desaturate(lighten(@pageBackground, 7), 5);
 @background: @backgroundColor @backgroundImage;
 
 /* Text */
 @tapColor: transparent;
-@textColor: rgba(0, 0, 0, 0.6);
+@textColor: @black;
 @invertedTextShadow: @textShadow;
 
 /* Box Shadow */
@@ -20,14 +20,14 @@
 @borderBoxShadow: 0 0 0 @borderBoxShadowWidth @borderBoxShadowColor inset;
 
 /* Loader */
-@invertedLoaderFillColor: rgba(0, 0, 0, 0.15);
+@invertedLoaderFillColor: @strongTransparentBlack;
 
 /*-------------------
         States
 --------------------*/
 
 /* Hovered */
-@hoverBackgroundColor: rgb(202, 203, 205);
+@hoverBackgroundColor: lighten(@backgroundColor, 10);
 @hoverColor: @hoveredTextColor;
 @iconHoverOpacity: 0.85;
 
@@ -37,11 +37,12 @@
 @iconFocusOpacity: 0.85;
 
 /* Pressed Down */
-@downBackgroundColor: rgb(186, 187, 188);
+@downBackgroundColor: saturate(lighten(@backgroundColor, 8), 5);
+@downPressedShadow: @boxShadow;
 @downColor: @pressedTextColor;
 
 /* Active */
-@activeBackgroundColor: rgb(192, 193, 194);
+@activeBackgroundColor: saturate(lighten(@backgroundColor, 15), 5);
 @activeColor: @selectedTextColor;
 
 /* Active + Hovered */
@@ -63,7 +64,7 @@
 @labeledLabelBorderColor: @borderColor;
 
 /* Labeled Icon */
-@labeledIconBackgroundColor: rgba(0, 0, 0, 0.05);
+@labeledIconBackgroundColor: @transparentBlack;
 @labeledIconColor: '';
 
 /* Inverted */
@@ -72,27 +73,30 @@
 
 /* Basic */
 @basicTextColor: @textColor;
+@basicBackground: transparent none;
+@basicBorder: 1px solid @borderColor;
 @basicLoadingColor: @offWhite;
 
 /* Basic Hover */
-@basicHoverBackground: @white;
+@basicHoverBackground: transparent none;
+//@basicHoverBorder: 1px solid lighten(@borderColor, 10);
 @basicHoverTextColor: @hoveredTextColor;
-;
+@basicHoverBoxShadow: @basicBoxShadow;
+
 /* Basic Focus */
 @basicFocusBackground: @basicHoverBackground;
 @basicFocusTextColor: @basicHoverTextColor;
 @basicFocusBoxShadow: @basicHoverBoxShadow;
 
 /* Basic Down */
-@basicDownBackground: rgb(248, 248, 248);
+@basicDownBackground: lighten(@pageBackground, 6);
 @basicDownTextColor: @pressedTextColor;
-@basicDownBoxShadow:
-  0 0 0 @basicBorderSize rgba(0, 0, 0, 0.15) inset,
-  0 1px 4px 0 @borderColor inset
-;
+@basicDownBoxShadow: @basicBoxShadow;
+
 /* Basic Active */
 @basicActiveBackground: @transparentBlack;
 @basicActiveTextColor: @selectedTextColor;
+@basicActiveBoxShadow: @basicBoxShadow;
 
 /* Basic Inverted */
 @basicInvertedBackground: transparent;
@@ -100,11 +104,11 @@
 @basicInvertedDownBackground: @transparentWhite;
 @basicInvertedActiveBackground: @transparentWhite;
 
-@basicInvertedBoxShadow: 0 0 0 @invertedBorderSize rgba(255, 255, 255, 0.5) inset;
-@basicInvertedHoverBoxShadow: 0 0 0 @invertedBorderSize rgba(255, 255, 255, 1) inset;
-@basicInvertedFocusBoxShadow: 0 0 0 @invertedBorderSize rgba(255, 255, 255, 1) inset;
+@basicInvertedBoxShadow: 0 0 0 @invertedBorderSize @strongTransparentWhite inset;
+@basicInvertedHoverBoxShadow: 0 0 0 @invertedBorderSize rgb(20, 20, 20) inset;
+@basicInvertedFocusBoxShadow: 0 0 0 @invertedBorderSize rgb(20, 20, 20) inset;
 @basicInvertedDownBoxShadow: 0 0 0 @invertedBorderSize rgba(255, 255, 255, 0.9) inset;
-@basicInvertedActiveBoxShadow: 0 0 0 @invertedBorderSize rgba(255, 255, 255, 0.7) inset;
+@basicInvertedActiveBoxShadow: 0 0 0 @invertedBorderSize rgba(20, 20, 20, 0.7) inset;
 
 @basicInvertedColor: @darkWhite;
 @basicInvertedHoverColor: @darkWhiteHover;

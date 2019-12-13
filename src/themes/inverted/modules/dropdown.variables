@@ -7,7 +7,7 @@
 --------------------*/
 
 /* Menu */
-@menuBackground: rgb(255, 255, 255);
+@menuBackground: @white;
 @menuBorderColor: @borderColor;
 @menuBorder: @menuBorderWidth solid @menuBorderColor;
 @menuBoxShadow: @raisedShadow;
@@ -94,12 +94,12 @@
 --------------------*/
 
 /* Upward */
-@upwardMenuBoxShadow: 0 0 3px 0 rgba(0, 0, 0, 0.08);
-@upwardSelectionMenuBoxShadow: 0 -2px 3px 0 rgba(0, 0, 0, 0.08);
-@upwardSelectionHoverBoxShadow: 0 0 2px 0 rgba(0, 0, 0, 0.05);
-@upwardSelectionVisibleBoxShadow: 0 0 3px 0 rgba(0, 0, 0, 0.08);
-@upwardSelectionActiveHoverBoxShadow: 0 0 3px 0 rgba(0, 0, 0, 0.05);
-@upwardSelectionActiveHoverMenuBoxShadow: 0 -2px 3px 0 rgba(0, 0, 0, 0.08);
+@upwardMenuBoxShadow: 0 0 3px 0 fade(@black, 8);
+@upwardSelectionMenuBoxShadow: 0 -2px 3px 0 fade(@black, 8);
+@upwardSelectionHoverBoxShadow: 0 0 2px 0 @transparentBlack;
+@upwardSelectionVisibleBoxShadow: 0 0 3px 0 fade(@black, 8);
+@upwardSelectionActiveHoverBoxShadow: 0 0 3px 0 @transparentBlack;
+@upwardSelectionActiveHoverMenuBoxShadow: 0 -2px 3px 0 fade(@black, 8);
 
 /* Pointing */
 @pointingArrowBackground: @white;
@@ -137,7 +137,7 @@
 @invertedSelectionTextColor: @invertedMenuColor;
 @invertedSelectionInputTextColor: @white;
 
-@invertedSelectionHoverBorderColor: rgba(255, 255, 255, 0.25);
+@invertedSelectionHoverBorderColor: fade(@white, 25);
 
 @invertedDefaultTextColor: @invertedUnselectedTextColor;
 @invertedDefaultTextFocusColor: @invertedLightTextColor;
@@ -147,21 +147,21 @@
 @invertedSelectionTextUnderlayIconOpacity: 0.45;
 @invertedSelectionTextUnderlayColor: @invertedLightTextColor;
 
-@invertedSelectionItemDivider: 1px solid #242526;
+@invertedSelectionItemDivider: 1px solid hsl(208, 22%, 85%);
 @invertedSelectionVisibleBorderColor: @strongTransparentWhite;
 
 @invertedMessageColor: @invertedUnselectedTextColor;
 
-@invertedInputHighlightBackground: rgba(255, 255, 255, 0.25);
+@invertedInputHighlightBackground: fade(@white, 25);
 @invertedInputHighlightColor: @invertedMutedTextColor;
 
 /* Multiple */
 
-@invertedLabelBackgroundColor: rgba(255, 255, 255, 0.7);
-@invertedLabelColor: rgba(0, 0, 0, 1);
-@invertedLabelBoxShadow: 0 0 0 @labelBorderWidth rgba(255, 255, 255, 0) inset;
+@invertedLabelBackgroundColor: fade(@white, 70);
+@invertedLabelColor: @black;
+@invertedLabelBoxShadow: 0 0 0 @labelBorderWidth fade(@white, 0) inset;
 
-@invertedLabelHoverBackgroundColor: rgba(255, 255, 255, 0.9);
+@invertedLabelHoverBackgroundColor: fade(@white, 90);
 @invertedLabelHoverTextColor: @invertedLabelColor;
 
 @invertedLabelIconOpacity: 0.6;
