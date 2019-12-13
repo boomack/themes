@@ -4,7 +4,12 @@
   "description": "The default theme for Boomack",
   "author": "Tobias Kiertscher <dev@mastersign.de>",
   "license": "MIT",
-  "dependencies": {
-    "fomantic-ui": "^2.8.2"
+  "files": [
+  	"dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "fomantic-ui": "^2.8.2",
+    "gulp": "^4.0.2"
   }
 }

@@ -141,7 +141,7 @@ function buildCSS(src, type, config, opts, callback) {
 
   gulp.parallel(
     gulp.series(buildUncompressed, packUncompressed),
-    //gulp.series(buildCompressed, packCompressed)
+    gulp.series(buildCompressed, packCompressed)
   )(callback);
 }
 

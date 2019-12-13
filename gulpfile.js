@@ -15,10 +15,9 @@ var
  *******************************/
 
 require('./tasks/collections/build')(gulp);
-require('./tasks/collections/various')(gulp);
 require('./tasks/collections/install')(gulp);
 
-gulp.task('default', gulp.series('check-install'));
+gulp.task('default', gulp.series('watch'));
 
 /*--------------
       Docs
@@ -32,9 +31,4 @@ require('./tasks/collections/docs')(gulp);
 
 if (config.rtl) {
   require('./tasks/collections/rtl')(gulp);
-}
-
-/* Admin Tasks */
-if (config.admin) {
-  require('./tasks/collections/admin')(gulp);
 }
