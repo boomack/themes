@@ -1,1 +1,6 @@
 node_modules/
+/dist/components/
+/dist/themes/*
+!/dist/themes/default/
+/dist/*.*
+!/dist/*.min.*
