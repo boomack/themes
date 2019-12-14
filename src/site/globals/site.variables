@@ -2,3 +2,5 @@
      User Global Variables
 *******************************/
 
+@relativeBorderRadius: @relative2px;
+@absoluteBorderRadius: @2px;
