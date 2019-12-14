@@ -7,13 +7,13 @@
 --------------------*/
 
 /* Icon Label */
-@iconLabelColor: rgba(0, 0, 0, 0.6);
+@iconLabelColor: fade(@black, 60);
 
 /* Extra Summary Data */
 @extraColor: @textColor;
 
 /* Metadata Group */
-@metadataColor: rgba(0, 0, 0, 0.6);
+@metadataColor: fade(@black, 60);
 
 /* Like */
 @likeColor: '';
@@ -21,8 +21,8 @@
 @likeActiveColor: rgb(239, 64, 74);
 
 /* Metadata Divider */
-@metadataDividerColor: rgba(0, 0, 0, 0.2);
+@metadataDividerColor: fade(@black, 20);
 
-@metadataActionColor: rgba(0, 0, 0, 0.5);
+@metadataActionColor: fade(@black, 50);
 
 @metadataActionHoverColor: @selectedTextColor;

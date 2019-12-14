@@ -8,6 +8,7 @@
 
 /* Card */
 @background: @white;
+@shadowBoxShadow: none;
 
 /*-------------------
        Content
@@ -41,13 +42,13 @@
 @metaLinkHoverColor: @textColor;
 
 /* Description */
-@descriptionColor: rgba(0, 0, 0, 0.68);
+@descriptionColor: fade(@black, 60);
 
 /* Dimmer */
 @dimmerColor: '';
 
 /* Additional Content */
-@extraDivider: 1px solid rgba(0, 0, 0, 0.05);
+@extraDivider: 1px solid @transparentBlack;
 @extraColor: @lightTextColor;
 
 /* Extra Links */
@@ -62,8 +63,8 @@
 @linkHoverBackground: @white;
 
 /* Inverted */
-@invertedBackground: @black;
-@invertedContentDivider: @borderWidth solid rgba(255, 255, 255, 0.15);
+@invertedBackground: @refFg;
+@invertedContentDivider: @borderWidth solid fade(@white, 15);
 @invertedHeaderColor: @invertedTextColor;
 @invertedDescriptionColor: @invertedMutedTextColor;
 @invertedMetaColor: @invertedLightTextColor;
@@ -71,5 +72,5 @@
 @invertedMetaLinkHoverColor: @invertedHoveredTextColor;
 @invertedExtraColor: @invertedLightTextColor;
 @invertedExtraLinkColor: @invertedUnselectedTextColor;
-@invertedExtraDivider: 1px solid rgba(255, 255, 255, 0.15);
+@invertedExtraDivider: 1px solid fade(@white, 15);
 @invertedLinkHoverBackground: @black;

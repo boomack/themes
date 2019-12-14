@@ -59,17 +59,17 @@
 
 /* Tag */
 @tagCircleColor: @white;
-@tagCircleBoxShadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
-@basicTagCircleBoxShadow: 0 -1px 3px 0 rgba(0, 0, 0, 0.8);
+@tagCircleBoxShadow: 0 -1px 1px 0 fade(@black, 30);
+@basicTagCircleBoxShadow: 0 -1px 3px 0 fade(@black, 80);
 
 /* Ribbon */
-@ribbonShadowColor: rgba(0, 0, 0, 0.15);
+@ribbonShadowColor: fade(@black, 15);
 
 /* Inverted */
-@invertedBackgroundColor: darken(@backgroundColor,20);
+@invertedBackgroundColor: darken(@backgroundColor, 20);
 @invertedBackground: @black;
 
-@basicInvertedBorderColor: rgba(255, 255, 255, 0.5);
+@basicInvertedBorderColor: fade(@white, 50);
 
 /* Colors */
 @redTextColor: @white;

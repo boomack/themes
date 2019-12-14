@@ -6,8 +6,8 @@
        Element
 --------------------*/
 
-@background: @darkWhite;
-@border: none; // @borderWidth solid @borderColor;
+@background: @offWhite;
+@border: @borderWidth solid fade(@borderColor, 20);
 @boxShadow: @subtleShadow;
 
 /*******************************
@@ -17,7 +17,7 @@
 /* Placeholder */
 @placeholderBackground: @darkWhite;
 @placeholderBorderColor: @borderColor;
-@placeholderBoxShadow: 0 2px 25px 0 rgba(196, 206, 216, 0.05) inset;
+@placeholderBoxShadow: 0 2px 25px 0 @transparentBlack inset;
 
 /* Stacked */
 @stackedPageBackground: @subtleTransparentBlack;

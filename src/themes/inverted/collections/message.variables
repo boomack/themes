@@ -8,7 +8,6 @@
        Elements
 --------------------*/
 
-@background: @darkWhite;
+@background: @midWhite;
 @borderShadow: 0 0 0 @borderWidth @strongBorderColor inset;
-// @shadowShadow: 0 0 0 0 @transparentBlack;
 @boxShadow: @borderShadow;
