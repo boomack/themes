@@ -6,7 +6,7 @@
        Element
 --------------------*/
 
-@background: @white;
+@background: @pageBackground;
 @color: @textColor;
 @border: @borderWidth solid @borderColor;
 
@@ -31,16 +31,16 @@
 @footerColor: @textColor;
 
 /* Responsive Size */
-@responsiveRowBoxShadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+@responsiveRowBoxShadow: 0 -1px 0 0 fade(@black, 10) inset;
 
 /*-------------------
        Types
 --------------------*/
 
 /* Definition */
-@definitionPageBackground: @white;
+@definitionPageBackground: @pageBackground;
 
-@definitionHeaderBackground: @white;
+@definitionHeaderBackground: @pageBackground;
 @definitionHeaderColor: @unselectedTextColor;
 @definitionHeaderFontWeight: @normal;
 
@@ -81,10 +81,10 @@
 
 /* Active */
 @activeColor: @textColor;
-@activeBackgroundColor: rgb(224, 224, 224);
+@activeBackgroundColor: @midWhite;
 @activeBoxShadow: @stateMarkerWidth 0 0 @activeColor inset;
 
-@activeBackgroundHover: rgb(239, 239, 239);
+@activeBackgroundHover: @darkWhite;
 @activeColorHover: @selectedTextColor;
 
 /*--------------
