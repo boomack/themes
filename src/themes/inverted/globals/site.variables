@@ -74,10 +74,10 @@
   Highlighted Text
 --------------------*/
 
-@highlightBackground      : @transparentBlack;
+@highlightBackground      : @veryStrongTransparentBlack;
 @highlightColor           : @textColor;
 
-@inputHighlightBackground : @transparentBlack;
+@inputHighlightBackground : @veryStrongTransparentBlack;
 @inputHighlightColor      : @textColor;
 
 /*-------------------
