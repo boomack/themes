@@ -1,0 +1,10 @@
+@placeholderLoadingGradient: linear-gradient(to right,
+  @transparentBlack 0,
+  @strongTransparentBlack 15%,
+  @transparentBlack 30%
+);
+@placeholderInvertedLoadingGradient: linear-gradient(to right,
+  @transparentWhite 0,
+  @strongTransparentWhite 15%,
+  @transparentWhite 30%
+);

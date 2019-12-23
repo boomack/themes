@@ -1,0 +1,6 @@
+@background: @pageBackground;
+@responsiveRowBoxShadow: 0 -1px 0 0 fade(@black, 10) inset;
+@definitionPageBackground: @pageBackground;
+@definitionHeaderBackground: @pageBackground;
+@activeBackgroundColor: @midWhite;
+@activeBackgroundHover: @darkWhite;

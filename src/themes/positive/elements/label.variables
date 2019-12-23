@@ -1,0 +1,16 @@
+@backgroundColor: darken(@pageBackground, 20);
+@color: @mutedTextColor;
+@labelHoverBackgroundColor: darken(@backgroundColor, 3);
+@labelHoverTextColor: @hoveredTextColor;
+@labelActiveBackgroundColor: darken(@pageBackground, 20);
+@labelActiveTextColor: @selectedTextColor;
+@labelActiveHoverBackgroundColor: darken(@labelActiveBackgroundColor, 3);
+@labelActiveHoverTextColor: @selectedTextColor;
+@tagCircleBoxShadow: 0 -1px 1px 0 fade(@black, 30);
+@basicBackground: none @white;
+@basicColor: @textColor;
+@basicTagCircleBoxShadow: 0 -1px 3px 0 fade(@black, 80);
+@ribbonShadowColor: fade(@black, 15);
+@invertedBackgroundColor: lighten(@backgroundColor, 20);
+@invertedBackground: @black;
+@basicInvertedBorderColor: fade(@white, 50);
