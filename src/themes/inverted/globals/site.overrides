@@ -1,8 +1,0 @@
-/*******************************
-        Global Overrides
-*******************************/
-
-mark {
-  background: fade(@yellow, 30);
-  color: @textColor;
-}

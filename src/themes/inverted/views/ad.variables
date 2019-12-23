@@ -1,6 +1,0 @@
-/*******************************
-          Advertisement
-*******************************/
-
-@testBackground: @lightBlack;
-@testColor: @white;
