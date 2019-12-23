@@ -1,0 +1,11 @@
+@backgroundColor: lighten(@pageBackground, 5);
+@titleColor: @textColor;
+@hoverBackground: lighten(@backgroundColor, 3);
+@downBackground: @backgroundColor;
+@activeBackground: lighten(@backgroundColor, 10);
+@activeColor: @darkTextColor;
+@activeHoverBackground: lighten(@activeBackground, 3);
+@invertedActiveBackground: rgb(189, 189, 189);
+@invertedActiveHoverBackground: rgb(160, 160, 160);
+@invertedHoverBackground: rgb(180, 180, 180);
+@invertedDisabledBackground: rgb(216, 216, 216);

@@ -1,0 +1,12 @@
+@backgroundColor: fade(@black, 85);
+@blurredBackgroundColor: fade(@black, 60);
+@blurredInvertedBackgroundColor: fade(@white, 60);
+@invertedBackgroundColor: fade(@white, 85);
+@simpleStartBackgroundColor: fade(@black, 0);
+@simpleInvertedStartBackgroundColor: fade(@white, 0);
+@veryLightBackgroundColor: fade(@black, 25);
+@lightBackgroundColor: fade(@black, 45);
+@mediumBackgroundColor: fade(@black, 65);
+@veryLightInvertedBackgroundColor: fade(@white, 25);
+@lightInvertedBackgroundColor: fade(@white, 45);
+@mediumInvertedBackgroundColor: fade(@white, 65);

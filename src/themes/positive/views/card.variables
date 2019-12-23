@@ -1,0 +1,6 @@
+@shadowBoxShadow: none;
+@descriptionColor: fade(@black, 60);
+@extraDivider: 1px solid @transparentBlack;
+@invertedBackground: @refFg;
+@invertedContentDivider: @borderWidth solid fade(@white, 15);
+@invertedExtraDivider: 1px solid fade(@white, 15);

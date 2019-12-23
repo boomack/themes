@@ -1,0 +1,68 @@
+@refBg: hsl(200, 0%, 98%);
+@refFg: hsl(218, 18%, 5%);
+
+@blendingBaseColor: @refBg;
+
+@focusedFormBorderColor: saturate(darken(@borderColor, 15), 10);
+@focusedFormMutedBorderColor: saturate(darken(@borderColor, 10), 8);
+
+@pageBackground      : @white;
+@textColor           : fade(@refFg, 80);
+
+@linkColor           : hsl(210, 60%, 58%);
+
+@trackInvertedBackground: hsla(0, 0%, 100%, 0.1);
+@thumbInvertedBackground: hsla(0, 0%, 100%, 0.25);
+@thumbInvertedInactiveBackground: hsla(0, 0%, 100%, 0.15);
+@thumbInvertedHoverBackground: hsla(0, 0%, 100%, 0.35);
+
+@highlightBackground      : @veryStrongTransparentBlack;
+@inputHighlightBackground : @veryStrongTransparentBlack;
+
+@loaderFillColor         : fade(@fullBlack, 0.1);
+@invertedLoaderFillColor : fade(@white, 0.15);
+
+@white            : lighten(@refBg, 2);
+@offWhite         : darken(@refBg, 2);
+@midWhite         : darken(@refBg, 4);
+@darkWhite        : darken(@refBg, 8);
+
+@grey             : hsl(0, 0%, 54%);
+
+@black            : @refFg;
+@fullBlack        : darken(@refFg, 5);
+
+@subtleTransparentBlack     : fade(@black, 3);
+@transparentBlack           : fade(@black, 5);
+@strongTransparentBlack     : fade(@black, 10);
+@veryStrongTransparentBlack : fade(@black, 15);
+
+@subtleTransparentWhite     : fade(@white, 5);
+@transparentWhite           : fade(@white, 10);
+@strongTransparentWhite     : fade(@white, 15);
+
+@darkTextColor               : fade(@black, 85);
+@mutedTextColor              : fade(@black, 60);
+@lightTextColor              : fade(@black, 40);
+
+@unselectedTextColor         : fade(@black, 40);
+@hoveredTextColor            : fade(@black, 80);
+@pressedTextColor            : fade(@black, 90);
+@selectedTextColor           : fade(@black, 95);
+@disabledTextColor           : fade(@black, 20);
+
+@invertedTextColor           : fade(@white, 90);
+@invertedMutedTextColor      : fade(@invertedTextColor, 0.8);
+@invertedLightTextColor      : fade(@invertedTextColor, 0.7);
+@invertedUnselectedTextColor : fade(@invertedTextColor, 0.5);
+@invertedHoveredTextColor    : fade(@invertedTextColor, 1);
+@invertedPressedTextColor    : fade(@invertedTextColor, 1);
+@invertedSelectedTextColor   : fade(@invertedTextColor, 1);
+@invertedDisabledTextColor   : fade(@invertedTextColor, 0.2);
+
+@borderColor               : hsla(210, 15%, 50%, 0.25);
+@strongBorderColor         : fade(@borderColor, 35);
+@internalBorderColor       : fade(@borderColor, 20);
+@selectedBorderColor       : fade(@borderColor, 50);
+@strongSelectedBorderColor : fade(@borderColor, 80);
+@disabledBorderColor       : fade(@borderColor, 15);
