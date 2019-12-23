@@ -1,0 +1,20 @@
+@background: @offWhite;
+@border: @borderWidth solid fade(@borderColor, 20);
+@placeholderBackground: @darkWhite;
+@placeholderBoxShadow: 0 2px 25px 0 @transparentBlack inset;
+@loaderDimmerColor: fade(@white, 80);
+@loaderInvertedDimmerColor: fade(@black, 85);
+@secondaryInvertedBackground:
+  lighten(@black, (@secondaryInvertedLightness * 100))
+  linear-gradient(
+    fade(@white, @secondaryInvertedLightness * 100) 0,
+    fade(@white, @secondaryInvertedLightness * 100) 100%
+  )
+;
+@tertiaryInvertedBackground:
+  lighten(@black, (@tertiaryInvertedLightness * 100))
+  linear-gradient(
+    fade(@white, @tertiaryInvertedLightness * 100) 0,
+    fade(@white, @tertiaryInvertedLightness * 100) 100%
+  )
+;

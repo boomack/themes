@@ -1,0 +1,2 @@
+@color: @darkTextColor;
+@invertedTextColor: @white;

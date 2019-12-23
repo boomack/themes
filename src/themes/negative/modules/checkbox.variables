@@ -1,0 +1,27 @@
+@sliderLineColor: @transparentBlack;
+
+@sliderHoverLaneBackground: @veryStrongTransparentBlack;
+@sliderHoverLabelColor: @hoveredTextColor;
+
+@sliderOnLineColor: @lightBlack;
+@sliderOnLabelColor: @selectedTextColor;
+
+@sliderOnFocusLineColor: @lightBlackFocus;
+@sliderOnFocusLabelColor: @sliderOnLabelColor;
+
+@toggleLaneBackground: @transparentBlack;
+@toggleCenterLaneBackground: @veryStrongTransparentBlack;
+
+@toggleFocusColor: @veryStrongTransparentBlack;
+@toggleHoverColor: @toggleFocusColor;
+
+@toggleOffLabelColor: @checkboxColor;
+@toggleOffHandleBoxShadow: @handleBoxShadow;
+
+@toggleOnLabelColor: @selectedTextColor;
+@toggleOnLaneColor: @primaryColor;
+
+@toggleOnHandleBoxShadow: @handleBoxShadow;
+
+@toggleOnFocusLaneColor: @primaryColorFocus;
+@toggleOnFocusLabelColor: @toggleOnLabelColor;
