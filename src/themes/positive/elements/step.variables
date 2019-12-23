@@ -1,0 +1,11 @@
+@backgroundColor: darken(@pageBackground, 5);
+@titleColor: @textColor;
+@hoverBackground: darken(@backgroundColor, 3);
+@downBackground: @backgroundColor;
+@activeBackground: darken(@backgroundColor, 10);
+@activeColor: @darkTextColor;
+@activeHoverBackground: darken(@activeBackground, 3);
+@invertedActiveBackground: rgb(189, 189, 189);
+@invertedActiveHoverBackground: rgb(160, 160, 160);
+@invertedHoverBackground: rgb(180, 180, 180);
+@invertedDisabledBackground: rgb(216, 216, 216);

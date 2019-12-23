@@ -1,0 +1,3 @@
+@downBorderColor: fade(@black, 30);
+@downBackground: @white;
+@invertedLoaderFillColor: fade(@black, 15);

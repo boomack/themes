@@ -1,0 +1,4 @@
+@iconLabelColor: fade(@black, 60);
+@metadataColor: fade(@black, 60);
+@metadataDividerColor: fade(@black, 20);
+@metadataActionColor: fade(@black, 50);

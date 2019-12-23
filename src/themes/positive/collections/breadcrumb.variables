@@ -1,0 +1,2 @@
+@dividerColor: @lightTextColor;
+@invertedDividerColor: @invertedLightTextColor;
