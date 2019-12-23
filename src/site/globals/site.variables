@@ -6,7 +6,7 @@
 @absoluteBorderRadius: @2px;
 
 @importGoogleFonts : false;
-@pageFont : Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
-@headerFont : Signika, Cambria, Times, serif;
-@codeFont : 'Roboto Mono', Consolas, Courier, monospace;
+@pageFont : Gelasio, Cambria, Times, serif;
+@headerFont : Archivo, "Heveltica Neue", Arial, sans-serif;
+@codeFont : "Courier Prime", Consolas, Courier, monospace;
 @bold : 600;
