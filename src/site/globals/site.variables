@@ -8,5 +8,5 @@
 @importGoogleFonts : false;
 @pageFont : Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
 @headerFont : Signika, Cambria, Times, serif;
-@codeFont : 'Space Mono', Consolas, Courier, monospace;
+@codeFont : 'Roboto Mono', Consolas, Courier, monospace;
 @bold : 600;
