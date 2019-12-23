@@ -19,6 +19,13 @@ var
   log       = tasks.log
 ;
 
+function defaultSource(config) {
+  return [
+    normalize(config.paths.source.themes + '/**/assets/**/*.*'),
+    normalize(config.paths.source.site + '/assets/**/*.*'),
+  ];
+}
+
 function build(src, config) {
   return gulp.src(src, {base: config.paths.source.themes})
     .pipe(gulpif(config.hasPermissions, chmod(config.parsedPermissions)))
@@ -37,7 +44,7 @@ function buildAssets(src, config, callback) {
   if (callback === undefined) {
     callback = config;
     config   = src;
-    src      = config.paths.source.themes + '/**/assets/**/*.*';
+    src      = defaultSource(config);
   }
 
   // copy assets
@@ -53,7 +60,7 @@ module.exports = function (callback) {
 
 module.exports.watch = function (type, config) {
   gulp
-    .watch([normalize(config.paths.source.themes + '/**/assets/**/*.*')])
+    .watch(defaultSource(config))
     .on('all', function (event, path) {
       console.log('Change in assets detected');
       return gulp.series((callback) => buildAssets(path, config, callback))();

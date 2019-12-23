@@ -4,3 +4,8 @@
 
 @relativeBorderRadius: @relative2px;
 @absoluteBorderRadius: @2px;
+
+@importGoogleFonts : false;
+@pageFont : Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+@headerFont : Signika, Cambria, Times, serif;
+@bold : 600;
