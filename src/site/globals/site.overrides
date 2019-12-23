@@ -1,3 +1,9 @@
 /*******************************
          Site Overrides
 *******************************/
+
+code {
+	font-family: 'Overpass Mono', Consolas, Courier, monospace;
+}
+
+@import "fonts.less";
