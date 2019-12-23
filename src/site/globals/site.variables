@@ -10,3 +10,6 @@
 @headerFont : Archivo, "Heveltica Neue", Arial, sans-serif;
 @codeFont : "Courier Prime", Consolas, Courier, monospace;
 @bold : 600;
+
+@refBg : hsl(50, 20%, 95%);
+@refFg : hsl(20, 8%, 8%);
