@@ -3,7 +3,7 @@
 *******************************/
 
 code {
-	font-family: 'Overpass Mono', Consolas, Courier, monospace;
+	font-family: @codeFont;
 }
 
 @import "fonts.less";
