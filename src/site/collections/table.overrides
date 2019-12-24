@@ -1,3 +1,13 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.table th {
+    font-family: @tableHeaderFont;
+}
+.ui.table td {
+    font-family: @tableFont;
+}
+.ui.definition.table > tbody > tr > td:first-child {
+    font-family: @tableHeaderFont;
+}

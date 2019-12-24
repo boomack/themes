@@ -5,11 +5,21 @@
 @relativeBorderRadius: @relative2px;
 @absoluteBorderRadius: @2px;
 
-@importGoogleFonts : false;
-@pageFont : Gelasio, Cambria, Times, serif;
+@importGoogleFonts: false;
+@pageFont   : Gelasio, Cambria, Times, serif;
 @headerFont : Archivo, "Heveltica Neue", Arial, sans-serif;
-@codeFont : "Courier Prime", Consolas, Courier, monospace;
-@bold : 600;
+@codeFont   : "Courier Prime", Consolas, Courier, monospace;
+@bold: 600;
 
-@refBg : hsl(50, 20%, 95%);
-@refFg : hsl(20, 8%, 8%);
+@refBg: hsl(50, 20%, 95%);
+@refFg: hsl(210, 10%, 8%);
+
+@linkColor: hsl(214, 100%, 38%);
+@linkHoverUnderline  : underline;
+
+@relativeBorderRadius: 0;
+@absoluteBorderRadius: 0;
+@borderColor: hsl(0, 0%, 80%);
+
+@subtleShadow: none;
+@floatingShadow: none;

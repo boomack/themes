@@ -1,3 +1,11 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.progress .bar {
+    font-family: @progressBarFont;
+}
+
+.ui.progress .label {
+    font-family: @progressLabelFont;
+}

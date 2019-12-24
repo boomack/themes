@@ -1,3 +1,8 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@border: @borderWidth solid hsl(0, 0%, 70%);
+@piledMargin: 2.25em;
+@piledBorder: @borderWidth solid hsl(0, 0%, 80%);
+@stackedPageBackground: @subtleTransparentBlack;
