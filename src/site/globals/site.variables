@@ -2,11 +2,25 @@
      User Global Variables
 *******************************/
 
-@relativeBorderRadius: @relative2px;
-@absoluteBorderRadius: @2px;
+@refBg: hsl(210, 40%, 5%);
+@refFg: hsl(207, 85%, 70%);
+
+@relativeBorderRadius: @relative3px;
+@absoluteBorderRadius: @3px;
 
 @importGoogleFonts : false;
-@pageFont : Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
-@headerFont : Signika, Cambria, Times, serif;
+@pageFont : Roboto, "Helvetica Neue", Arial, Helvetica, sans-serif;
+@headerFont : @pageFont;
 @codeFont : 'Roboto Mono', Consolas, Courier, monospace;
-@bold : 600;
+@bold : 700;
+
+@borderColor: darken(@refFg, 30);
+
+/* Differentiating Layers */
+@subtleShadow:
+  0 1px 2px 0 @borderColor
+;
+@floatingShadow:
+  0 2px 5px 0 fade(@borderColor, 25),
+  0 2px 14px 0 fade(@borderColor, 15)
+;
