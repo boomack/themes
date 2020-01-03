@@ -2,8 +2,21 @@
          Site Overrides
 *******************************/
 
+strong {
+	font-style: italic;
+}
 code {
 	font-family: @codeFont;
+}
+mark {
+    background-color: darken(@olive, 10);
+    color: @refBg;
+}
+ins {
+	color: @tealTextColor;
+}
+del {
+	color: @purpleTextColor;
 }
 
 @import "fonts.less";

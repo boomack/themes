@@ -14,13 +14,18 @@
 @codeFont : 'Roboto Mono', Consolas, Courier, monospace;
 @bold : 700;
 
+@disabledTextColor: darken(saturate(@textColor, -45), 40);
+@inputPlaceholderColor: darken(@refFg, 45);
+@inputPlaceholderFocusColor: darken(@refFg, 10);
+
 @borderColor: darken(@refFg, 30);
+@solidBorderColor: @borderColor;
 
 /* Differentiating Layers */
 @subtleShadow:
-  0 1px 2px 0 @borderColor
+  0 0 2px 0 @borderColor
 ;
 @floatingShadow:
-  0 2px 5px 0 fade(@borderColor, 25),
-  0 2px 14px 0 fade(@borderColor, 15)
+  0 0 4px 0 fade(@borderColor, 15),
+  0 0 12px 0 fade(@borderColor, 10)
 ;

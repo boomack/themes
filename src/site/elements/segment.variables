@@ -1,3 +1,6 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@boxShadow: none;
+@border: @borderWidth solid @borderColor;
