@@ -1,3 +1,11 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@backgroundColor: @midWhite;
+@titleColor: @textColor;
+@hoverBackground: @offWhite;
+@downBackground: @backgroundColor;
+@activeBackground: @darkWhite;
+@activeColor: @darkTextColor;
+@activeHoverBackground: #200000;

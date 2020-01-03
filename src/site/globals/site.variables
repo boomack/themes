@@ -2,11 +2,12 @@
      User Global Variables
 *******************************/
 
-@refBg: hsl(210, 40%, 5%);
-@refFg: hsl(207, 85%, 70%);
+@refBg: rgb(0, 0, 0);
+@refFg: rgb(250, 0, 0);
+@pageBackground: #000;
 
-@relativeBorderRadius: @relative3px;
-@absoluteBorderRadius: @3px;
+@relativeBorderRadius: @relative6px;
+@absoluteBorderRadius: @6px;
 
 @importGoogleFonts : false;
 @pageFont : Roboto, "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -14,18 +15,25 @@
 @codeFont : 'Roboto Mono', Consolas, Courier, monospace;
 @bold : 700;
 
-@disabledTextColor: darken(saturate(@textColor, -45), 40);
-@inputPlaceholderColor: darken(@refFg, 45);
+@fullBlack        : #FF0000;
+@white            : #000000;
+@offWhite         : #080000;
+@midWhite         : #100000;
+@darkWhite        : #180000;
+
+@linkColor: rgb(255, 0, 40);
+@linkUnderline: none;
+@linkHoverColor: rgb(255, 40, 80);
+@linkHoverUnderline: none;
+
+@disabledTextColor: darken(@textColor, 25);
+@inputPlaceholderColor: darken(@refFg, 30);
 @inputPlaceholderFocusColor: darken(@refFg, 10);
 
-@borderColor: darken(@refFg, 30);
+@borderWidth: 2px;
+@borderColor: darken(@refFg, 10);
 @solidBorderColor: @borderColor;
 
 /* Differentiating Layers */
-@subtleShadow:
-  0 0 2px 0 @borderColor
-;
-@floatingShadow:
-  0 0 4px 0 fade(@borderColor, 15),
-  0 0 12px 0 fade(@borderColor, 10)
-;
+@subtleShadow: none;
+@floatingShadow: none;

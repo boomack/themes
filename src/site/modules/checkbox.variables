@@ -1,3 +1,10 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@handleBackground: darken(@refFg, 35);
+@sliderOnLineColor: @refFg;
+@toggleLaneColor: darken(@refFg, 50);
+@toggleLaneFocusColor: darken(@refFg, 40);
+@toggleOnLaneColor: darken(@refFg, 10);
+@toggleOnFocusLaneColor: darken(@refFg, 5);;

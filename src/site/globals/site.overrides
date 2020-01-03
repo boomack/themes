@@ -9,14 +9,8 @@ code {
 	font-family: @codeFont;
 }
 mark {
-    background-color: darken(@olive, 10);
-    color: @refBg;
-}
-ins {
-	color: @tealTextColor;
-}
-del {
-	color: @purpleTextColor;
+	background: darken(@refFg, 20);
+	color: @refBg;
 }
 
 @import "fonts.less";

@@ -2,5 +2,5 @@
     User Variable Overrides
 *******************************/
 
-@backgroundColor: @borderColor;
+@backgroundColor: darken(@borderColor, 10);
 @color: @refBg;
