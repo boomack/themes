@@ -3,7 +3,7 @@
 *******************************/
 
 @refBg: rgb(0, 0, 0);
-@refFg: rgb(250, 0, 0);
+@refFg: rgb(0, 0, 255);
 @pageBackground: #000;
 
 @relativeBorderRadius: @relative6px;
@@ -15,18 +15,18 @@
 @codeFont : 'Roboto Mono', Consolas, Courier, monospace;
 @bold : 700;
 
-@fullBlack        : #FF0000;
+@fullBlack        : #0000FF;
 @white            : #000000;
-@offWhite         : #080000;
-@midWhite         : #100000;
-@darkWhite        : #180000;
+@offWhite         : #000010;
+@midWhite         : #000020;
+@darkWhite        : #000030;
 
-@linkColor: rgb(255, 0, 40);
+@linkColor: rgb(20, 40, 255);
 @linkUnderline: none;
-@linkHoverColor: rgb(255, 40, 80);
+@linkHoverColor: rgb(40, 80, 255);
 @linkHoverUnderline: none;
 
-@disabledTextColor: darken(@textColor, 25);
+@disabledTextColor: darken(@textColor, 20);
 @inputPlaceholderColor: darken(@refFg, 30);
 @inputPlaceholderFocusColor: darken(@refFg, 10);
 

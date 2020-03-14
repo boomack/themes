@@ -8,4 +8,4 @@
 @downBackground: @backgroundColor;
 @activeBackground: @darkWhite;
 @activeColor: @darkTextColor;
-@activeHoverBackground: #200000;
+@activeHoverBackground: #000020;
