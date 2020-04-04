@@ -37,3 +37,22 @@
 /* Differentiating Layers */
 @subtleShadow: none;
 @floatingShadow: none;
+
+@primaryColor: rgb(220, 0, 0);
+@lightPrimaryColor   : rgb(240, 0, 0);
+@secondaryColor: rgb(140, 0, 0);
+@lightSecondaryColor : rgb(160, 0, 0);
+@blendingBaseColor: rgb(204, 0, 0);
+
+@grey:   rgb(140, 0, 0);
+@yellow: rgb(255, 0, 0);
+@orange: rgb(235, 0, 0);
+@olive:  rgb(215, 0, 0);
+@green:  rgb(195, 0, 0);
+@pink:   rgb(175, 0, 0);
+@red:    rgb(155, 0, 0);
+@teal:   rgb(135, 0, 0);
+@purple: rgb(115, 0, 0);
+@blue:   rgb(95, 0, 0);
+@brown:  rgb(75, 0, 0);
+@violet: rgb(55, 0, 0);
