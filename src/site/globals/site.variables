@@ -23,3 +23,15 @@
 
 @subtleShadow: none;
 @floatingShadow: none;
+
+@red: hsl(355, 69%, 51%);
+@orange: hsl(28, 93%, 49%);
+@yellow: hsl(46, 100%, 44%);
+@olive: hsl(64, 63%, 45%);
+@green: hsl(96, 48%, 46%);
+@teal: hsl(165, 39%, 46%);
+@blue: hsl(214, 49%, 43%);
+@violet: hsl(254, 39%, 47%);
+@purple: hsl(285, 36%, 41%);
+@pink: hsl(326, 44%, 54%);
+@brown: hsl(24, 43%, 37%);
