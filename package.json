@@ -1,7 +1,7 @@
 {
-  "name": "boomack-theme-default",
+  "name": "boomack-theme-dark",
   "version": "1.0.0",
-  "description": "The default theme for Boomack",
+  "description": "The dark theme for Boomack",
   "author": "Tobias Kiertscher <dev@mastersign.de>",
   "license": "MIT",
   "files": [
