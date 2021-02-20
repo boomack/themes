@@ -1,7 +1,7 @@
 {
-  "name": "boomack-theme-default",
+  "name": "boomack-theme-red-night",
   "version": "1.0.0",
-  "description": "The default theme for Boomack",
+  "description": "The red-night theme for Boomack",
   "author": "Tobias Kiertscher <dev@mastersign.de>",
   "license": "MIT",
   "files": [
