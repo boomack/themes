@@ -5,11 +5,11 @@
   "author": "Tobias Kiertscher <dev@mastersign.de>",
   "license": "MIT",
   "files": [
-  	"dist"
+    "dist"
   ],
   "dependencies": {},
   "devDependencies": {
-    "fomantic-ui": "^2.8.2",
+    "fomantic-ui": "^2.8.7",
     "gulp": "^4.0.2"
   }
 }
