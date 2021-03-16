@@ -3,7 +3,7 @@
 *******************************/
 
 @refBg: rgb(0, 0, 0);
-@refFg: rgb(0, 0, 255);
+@refFg: rgb(0, 255, 0);
 @pageBackground: #000;
 
 @relativeBorderRadius: @relative6px;
@@ -15,15 +15,15 @@
 @codeFont : 'Roboto Mono', Consolas, Courier, monospace;
 @bold : 700;
 
-@fullBlack        : #0000FF;
+@fullBlack        : #00FF00;
 @white            : #000000;
-@offWhite         : #000010;
-@midWhite         : #000020;
-@darkWhite        : #000030;
+@offWhite         : #001000;
+@midWhite         : #002000;
+@darkWhite        : #003000;
 
-@linkColor: rgb(20, 40, 255);
+@linkColor: rgb(20, 255, 40);
 @linkUnderline: none;
-@linkHoverColor: rgb(40, 80, 255);
+@linkHoverColor: rgb(40, 255, 80);
 @linkHoverUnderline: none;
 
 @disabledTextColor: darken(@textColor, 20);
@@ -38,21 +38,21 @@
 @subtleShadow: none;
 @floatingShadow: none;
 
-@primaryColor: rgb(0, 0, 220);
-@lightPrimaryColor   : rgb(0, 0, 240);
-@secondaryColor: rgb(0, 0, 140);
-@lightSecondaryColor : rgb(0, 0, 160);
-@blendingBaseColor: rgb(0, 0, 204);
+@primaryColor: rgb(0, 220, 0);
+@lightPrimaryColor   : rgb(0, 240, 0);
+@secondaryColor: rgb(0, 140, 0);
+@lightSecondaryColor : rgb(0, 160, 0);
+@blendingBaseColor: rgb(0, 204, 0);
 
-@grey:   rgb(0, 0, 140);
-@yellow: rgb(0, 0, 255);
-@orange: rgb(0, 0, 235);
-@olive:  rgb(0, 0, 215);
-@green:  rgb(0, 0, 195);
-@pink:   rgb(0, 0, 175);
-@red:    rgb(0, 0, 155);
-@teal:   rgb(0, 0, 135);
-@purple: rgb(0, 0, 115);
-@blue:   rgb(0, 0, 95);
-@brown:  rgb(0, 0, 75);
-@violet: rgb(0, 0, 55);
+@grey:   rgb(0, 140, 0);
+@yellow: rgb(0, 255, 0);
+@orange: rgb(0, 235, 0);
+@olive:  rgb(0, 215, 0);
+@green:  rgb(0, 195, 0);
+@pink:   rgb(0, 175, 0);
+@red:    rgb(0, 155, 0);
+@teal:   rgb(0, 135, 0);
+@purple: rgb(0, 115, 0);
+@blue:   rgb(0, 95, 0);
+@brown:  rgb(0, 75, 0);
+@violet: rgb(0, 55, 0);

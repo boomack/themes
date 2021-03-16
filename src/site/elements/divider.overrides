@@ -4,7 +4,7 @@
 
 .ui.horizontal.divider:before,
 .ui.horizontal.divider:after {
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAABCAIAAACnup5zAAAACXBIWXMAAAsSAAALEgHS3X78AAAAH0lEQVR4nO3BQQ0AAAgAoXvYP6FhzOEGTG0AAAAAnx3T/wDhQSoCIAAAAABJRU5ErkJggg==');
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAABCAIAAACnup5zAAAACXBIWXMAAAsSAAALEgHS3X78AAAAH0lEQVR4nO3BMQ0AAAwDoB71r6uypmMJ0CwAAAAArx2DYADNqOy9EAAAAABJRU5ErkJggg==');
 }
 
 @media only screen and (max-width : (@tabletBreakpoint - 1px)) {
@@ -12,6 +12,6 @@
   .ui.grid .stackable.row .ui.vertical.divider:before,
   .ui.stackable.grid .ui.vertical.divider:after,
   .ui.grid .stackable.row .ui.vertical.divider:after {
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAABCAIAAACnup5zAAAACXBIWXMAAAsSAAALEgHS3X78AAAAH0lEQVR4nO3BQQ0AAAgAoXvYP6FhzOEGTG0AAAAAnx3T/wDhQSoCIAAAAABJRU5ErkJggg==');
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAABCAIAAACnup5zAAAACXBIWXMAAAsSAAALEgHS3X78AAAAH0lEQVR4nO3BMQ0AAAwDoB71r6uypmMJ0CwAAAAArx2DYADNqOy9EAAAAABJRU5ErkJggg==');
   }
 }
