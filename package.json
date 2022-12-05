@@ -9,7 +9,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "fomantic-ui": "^2.8.7",
+    "fomantic-ui": "^2.9.0",
     "gulp": "^4.0.2"
   }
 }
