@@ -4,3 +4,4 @@ node_modules/
 !/dist/themes/default/
 /dist/*.*
 !/dist/*.min.*
+/semantic.json
