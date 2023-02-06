@@ -85,6 +85,10 @@ module.exports = {
       rebaseUrls: false
     },
 
+    less: {
+      math: 'always',
+    },
+
     /* Comment Banners */
     header: {
       title      : release.title,
