@@ -1,7 +1,7 @@
 {
-  "name": "boomack-theme-blue-night",
-  "version": "1.0.0",
-  "description": "The blue-night theme for Boomack",
+  "name": "boomack-theme-default",
+  "version": "1.1.0",
+  "description": "The default theme for Boomack",
   "author": "Tobias Kiertscher <dev@mastersign.de>",
   "license": "MIT",
   "files": [
@@ -9,7 +9,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "fomantic-ui": "^2.8.7",
+    "fomantic-ui": "^2.9.2",
     "gulp": "^4.0.2"
   }
 }
