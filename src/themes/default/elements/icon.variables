@@ -9,40 +9,25 @@
 /* Solid Icons */
 @fontName: 'icons';
 @src:
-  url("@{fontPath}/@{fontName}.eot?#iefix") format('embedded-opentype'),
-  url("@{fontPath}/@{fontName}.woff2") format('woff2'),
-  url("@{fontPath}/@{fontName}.woff") format('woff'),
-  url("@{fontPath}/@{fontName}.ttf") format('truetype'),
-  url("@{fontPath}/@{fontName}.svg#icons") format('svg')
+  url("@{fontPath}/@{fontName}.woff2") format('woff2')
 ;
-@fallbackSRC: url("@{fontPath}/@{fontName}.eot");
+@fallbackSRC: url("@{fontPath}/@{fontName}.woff");
 
 /* Outline Icons */
 @importOutlineIcons: true;
 @outlineFontName: 'outline-icons';
 @outlineSrc:
-  url("@{fontPath}/@{outlineFontName}.eot?#iefix") format('embedded-opentype'),
-  url("@{fontPath}/@{outlineFontName}.woff2") format('woff2'),
-  url("@{fontPath}/@{outlineFontName}.woff") format('woff'),
-  url("@{fontPath}/@{outlineFontName}.ttf") format('truetype'),
-  url("@{fontPath}/@{outlineFontName}.svg#icons") format('svg')
+  url("@{fontPath}/@{outlineFontName}.woff2") format('woff2')
 ;
-@outlineFallbackSRC: url("@{fontPath}/@{outlineFontName}.eot");
-
-
+@outlineFallbackSRC: url("@{fontPath}/@{outlineFontName}.woff");
 
 /* Brand Icons */
 @importBrandIcons: true;
 @brandFontName: 'brand-icons';
 @brandSrc:
-  url("@{fontPath}/@{brandFontName}.eot?#iefix") format('embedded-opentype'),
-  url("@{fontPath}/@{brandFontName}.woff2") format('woff2'),
-  url("@{fontPath}/@{brandFontName}.woff") format('woff'),
-  url("@{fontPath}/@{brandFontName}.ttf") format('truetype'),
-  url("@{fontPath}/@{brandFontName}.svg#icons") format('svg')
+  url("@{fontPath}/@{brandFontName}.woff2") format('woff2')
 ;
-@brandFallbackSRC: url("@{fontPath}/@{brandFontName}.eot");
-
+@brandFallbackSRC: url("@{fontPath}/@{brandFontName}.woff");
 
 /*--------------
    Definition
