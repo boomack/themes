@@ -36,6 +36,19 @@ if (config.rtl) {
   require('./tasks/collections/rtl')(gulp);
 }
 
+gulp.task('copy-site-fonts', () =>
+  gulp.src([
+    'src/site/assets/fonts/*.woff',
+    'src/site/assets/fonts/*.woff2',
+  ])
+  .pipe(gulp.dest('dist/site/assets/fonts/')))
+gulp.task('copy-site-fonts').description = 'Copy site font files from source to output';
+
+gulp.task('copy-theme-assets', () =>
+  gulp.src('src/theme/default/assets/**')
+    .pipe(gulp.dest('dist/theme/default/assets/')))
+gulp.task('copy-theme-assets').description = 'Copy theme assets from source to output';
+
 gulp.task('fix-font-paths', () =>
   gulp.src('dist/semantic*.css')
     .pipe(transformer(function (text) {
@@ -46,3 +59,5 @@ gulp.task('fix-font-paths', () =>
     })())
     .pipe(gulp.dest('dist/')));
 gulp.task('fix-font-paths').description = 'Fix the relative path of icon fonts in the CSS output';
+
+gulp.task('finish', gulp.series('copy-site-fonts', 'copy-theme-assets', 'fix-font-paths'))
