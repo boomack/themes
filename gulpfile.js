@@ -54,9 +54,12 @@ gulp.task('fix-font-paths', () =>
       text = text.replace(
         /url\((?<quote>["']?)(?:\.\/)?themes\/default\/assets\/fonts\//g,
         'url($<quote>../../fonts/');
+      text = text.replace(
+        /url\((?<quote>["']?)(?:\.\/)?site\/assets\/fonts\//g,
+        'url($<quote>fonts/');
       return text;
     })())
     .pipe(gulp.dest('dist/')));
 gulp.task('fix-font-paths').description = 'Fix the relative path of icon fonts in the CSS output';
 
-gulp.task('finish', gulp.series('copy-site-fonts', 'copy-theme-assets', 'fix-font-paths'))
+gulp.task('publish', gulp.series('copy-site-fonts', 'copy-theme-assets', 'fix-font-paths'))
